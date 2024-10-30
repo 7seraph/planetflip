@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
@@ -19,13 +26,24 @@
 			"name": "Tiled Background",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "8tzm48e1xxu",
 	"objectTypes": {
 		"items": [
-			"Text",
-			"TiledBackground"
+			"Title",
+			"TiledBackground",
+			"water",
+			"TiledBackground2",
+			"Sprite",
+			"Sprite2"
 		],
 		"subfolders": []
 	},
@@ -37,13 +55,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Landing",
+			"Game"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Landingsheet",
+			"Gamesheet"
 		],
 		"subfolders": []
 	},

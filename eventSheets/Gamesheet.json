@@ -1,0 +1,49 @@
+{
+	"name": "Gamesheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 239628279669384,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Sprite2",
+					"sid": 847041443767651,
+					"parameters": {
+						"object": "Sprite2",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				}
+			],
+			"sid": 348505903999304
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 984376841250377,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 363551230094384
+		}
+	],
+	"sid": 768058851844165
+}
