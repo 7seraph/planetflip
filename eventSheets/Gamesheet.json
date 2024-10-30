@@ -2,6 +2,16 @@
 	"name": "Gamesheet",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 952234354892785
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -43,6 +53,27 @@
 			],
 			"actions": [],
 			"sid": 363551230094384
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 611491676458140
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 275979301233434,
+					"parameters": {
+						"text": "\"Score: \" & score"
+					}
+				}
+			],
+			"sid": 416617419224753
 		}
 	],
 	"sid": 768058851844165

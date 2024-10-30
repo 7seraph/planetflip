@@ -43,7 +43,8 @@
 			"water",
 			"TiledBackground2",
 			"Sprite",
-			"Sprite2"
+			"Sprite2",
+			"Text"
 		],
 		"subfolders": []
 	},
