@@ -23,20 +23,7 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "spawn-another-object",
-					"objectClass": "Sprite2",
-					"sid": 847041443767651,
-					"parameters": {
-						"object": "Sprite2",
-						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false,
-						"template-name": "\"\""
-					}
-				}
-			],
+			"actions": [],
 			"sid": 348505903999304
 		},
 		{

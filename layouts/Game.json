@@ -225,9 +225,14 @@
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
-						"DragDrop": {
+						"Bullet": {
 							"properties": {
-								"axes": "both",
+								"speed": -800,
+								"acceleration": 90,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
 								"enabled": true
 							}
 						}
@@ -237,8 +242,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 1442,
-						"y": 333,
+						"x": 1229,
+						"y": 307,
 						"width": 77.40113719859917,
 						"height": 178.41618066117775,
 						"originX": 0.5,
@@ -247,9 +252,9 @@
 							1,
 							1,
 							1,
-							1
+							0.9
 						],
-						"angle": 0.8253664124342487,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
