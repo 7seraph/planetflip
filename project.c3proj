@@ -29,8 +29,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
+			"id": "DragnDrop",
+			"name": "Drag & Drop",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -44,7 +44,7 @@
 			"TiledBackground2",
 			"Sprite",
 			"Sprite2",
-			"Text"
+			"Score"
 		],
 		"subfolders": []
 	},

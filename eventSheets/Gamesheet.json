@@ -17,9 +17,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 239628279669384,
+					"sid": 295839390509820,
 					"parameters": {
-						"interval-seconds": "1.0"
+						"interval-seconds": "5"
 					}
 				}
 			],
@@ -66,7 +66,7 @@
 			"actions": [
 				{
 					"id": "set-text",
-					"objectClass": "Text",
+					"objectClass": "Score",
 					"sid": 275979301233434,
 					"parameters": {
 						"text": "\"Score: \" & score"

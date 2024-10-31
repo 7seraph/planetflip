@@ -92,9 +92,9 @@
 						"text": "Title",
 						"enable-bbcode": true,
 						"font": "OCR A",
-						"size": 85,
+						"size": 70,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,

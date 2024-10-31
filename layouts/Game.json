@@ -163,7 +163,7 @@
 						"x": 147.94575952550844,
 						"y": 553.4493299660462,
 						"width": 133.27496690019663,
-						"height": 96.50945878979756,
+						"height": 96.50945878979755,
 						"originX": 0.5,
 						"originY": 0.5476190476190477,
 						"color": [
@@ -198,7 +198,7 @@
 						"x": 153,
 						"y": 353,
 						"width": 133.11870215062564,
-						"height": 96.3963015573496,
+						"height": 96.39630155734962,
 						"originX": 0.5,
 						"originY": 0.5476190476190477,
 						"color": [
@@ -225,14 +225,9 @@
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
-						"Bullet": {
+						"DragDrop": {
 							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
+								"axes": "both",
 								"enabled": true
 							}
 						}
@@ -242,8 +237,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 2162,
-						"y": 240,
+						"x": 1442,
+						"y": 333,
 						"width": 77.40113719859917,
 						"height": 178.41618066117775,
 						"originX": 0.5,
@@ -259,14 +254,14 @@
 					}
 				},
 				{
-					"type": "Text",
+					"type": "Score",
 					"properties": {
 						"text": "Score:",
-						"enable-bbcode": true,
-						"font": "Arial",
+						"enable-bbcode": false,
+						"font": "Ariel",
 						"size": 39.70000000000002,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							1,
