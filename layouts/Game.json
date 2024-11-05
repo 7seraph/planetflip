@@ -261,10 +261,10 @@
 				{
 					"type": "Score",
 					"properties": {
-						"text": "Score:",
+						"text": "SCORE: ",
 						"enable-bbcode": false,
 						"font": "Ariel",
-						"size": 39.70000000000002,
+						"size": 36,
 						"line-height": 0,
 						"bold": true,
 						"italic": false,
@@ -293,12 +293,98 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 30,
-						"y": 36,
-						"width": 171,
-						"height": 71,
+						"x": 23,
+						"y": 23,
+						"width": 294,
+						"height": 57,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Score",
+					"properties": {
+						"text": "LVL: ",
+						"enable-bbcode": false,
+						"font": "Ariel",
+						"size": 33,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 8,
+					"sid": 984056556458156,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 984056556458156,
+						"expanded": true
+					},
+					"world": {
+						"x": 976,
+						"y": 17,
+						"width": 171,
+						"height": 46,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"sid": 776352212530932,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 776352212530932,
+						"expanded": true
+					},
+					"world": {
+						"x": 993.8418491470748,
+						"y": 80.15815085292525,
+						"width": 101.01107905671027,
+						"height": 101.01107905671027,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
