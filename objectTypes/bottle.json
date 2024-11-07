@@ -1,51 +1,45 @@
 {
-	"name": "Sprite3",
+	"name": "bottle",
 	"plugin-id": "Sprite",
-	"sid": 798458432206133,
+	"sid": 401030762040395,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 433356109837575
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 500,
-						"height": 500,
+						"width": 118,
+						"height": 272,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 3839007,
+						"imageSpriteId": 1139963,
 						"collisionPoly": {
 							"points": [
-								0.456,
-								0.298,
-								0.586,
-								0.312,
-								0.688,
-								0.5,
-								0.688,
-								0.572,
-								0.658,
-								0.63,
-								0.614,
-								0.674,
-								0.556,
-								0.702,
-								0.47,
-								0.702,
-								0.412,
-								0.674,
-								0.368,
-								0.63,
-								0.34,
-								0.572,
-								0.34,
-								0.5
+								0.9915254237288136,
+								0.2536764705882353,
+								0.9915254237288136,
+								0.9558823529411765,
+								0.09322033898305082,
+								0.9926470588235294,
+								0.008474576271186418,
+								0.2536764705882353,
+								0.2542372881355932,
+								0.04411764705882353,
+								0.6610169491525424,
+								0.007352941176470588
 							]
 						},
 						"useCollisionPoly": true,
@@ -53,7 +47,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 617382670155190,
+				"sid": 319138989479661,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

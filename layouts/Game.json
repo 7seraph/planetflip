@@ -36,9 +36,9 @@
 					},
 					"world": {
 						"x": 2,
-						"y": 105,
+						"y": 113,
 						"width": 2558,
-						"height": 524,
+						"height": 518,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "grass",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -83,7 +83,7 @@
 						"x": 0,
 						"y": 3,
 						"width": 2563,
-						"height": 104,
+						"height": 112,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -97,7 +97,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "grass",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -142,7 +142,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "fish",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -160,10 +160,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 147.94575952550844,
-						"y": 553.4493299660462,
-						"width": 133.27496690019663,
-						"height": 96.50945878979755,
+						"x": 166,
+						"y": 559,
+						"width": 98.91172635880399,
+						"height": 71.62573288051323,
 						"originX": 0.5,
 						"originY": 0.5476190476190477,
 						"color": [
@@ -177,7 +177,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "fish",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -195,10 +195,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 153,
-						"y": 353,
-						"width": 133.11870215062564,
-						"height": 96.39630155734962,
+						"x": 118,
+						"y": 446,
+						"width": 98.75115694305397,
+						"height": 71.50945847600461,
 						"originX": 0.5,
 						"originY": 0.5476190476190477,
 						"color": [
@@ -212,7 +212,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "bottle",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -227,11 +227,11 @@
 					"behaviors": {
 						"Bullet": {
 							"properties": {
-								"speed": -800,
-								"acceleration": 90,
+								"speed": 0,
+								"acceleration": 0,
 								"gravity": 0,
-								"bounce-off-solids": true,
-								"set-angle": false,
+								"bounce-off-solids": false,
+								"set-angle": true,
 								"step": false,
 								"enabled": true
 							}
@@ -242,10 +242,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 1229,
-						"y": 307,
-						"width": 77.40113719859917,
-						"height": 178.41618066117775,
+						"x": 1199,
+						"y": 311,
+						"width": 46.42488951432486,
+						"height": 107.01330464318951,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -310,58 +310,7 @@
 					}
 				},
 				{
-					"type": "Score",
-					"properties": {
-						"text": "LVL: ",
-						"enable-bbcode": false,
-						"font": "Ariel",
-						"size": 33,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"text-direction": "ltr",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 8,
-					"sid": 984056556458156,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 984056556458156,
-						"expanded": true
-					},
-					"world": {
-						"x": 976,
-						"y": 17,
-						"width": 171,
-						"height": 46,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite3",
+					"type": "clock",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -385,6 +334,41 @@
 						"height": 101.01107905671027,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "fish",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"sid": 926130218290395,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 926130218290395,
+						"expanded": true
+					},
+					"world": {
+						"x": 184,
+						"y": 343,
+						"width": 98.75115694305397,
+						"height": 71.50945847600461,
+						"originX": 0.5,
+						"originY": 0.5476190476190477,
 						"color": [
 							1,
 							1,

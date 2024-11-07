@@ -12,55 +12,266 @@
 			"sid": 952234354892785
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "variable",
+			"name": "spawnSpeed",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 861154592713104
+		},
+		{
+			"eventType": "variable",
+			"name": "highScore",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 990568925855154
+		},
+		{
+			"eventType": "variable",
+			"name": "gameOver",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 777028979167200
+		},
+		{
+			"eventType": "variable",
+			"name": "trashSpeed",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 178882491687161
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Initialize",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "every-x-seconds",
-					"objectClass": "System",
-					"sid": 295839390509820,
-					"parameters": {
-						"interval-seconds": "5"
-					}
+					"eventType": "comment",
+					"text": "Set up the game"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 306076439189368
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 108506414692072,
+							"parameters": {
+								"variable": "score",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 530482723710183,
+							"parameters": {
+								"variable": "gameOver",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 574999569750448,
+							"parameters": {
+								"variable": "trashSpeed",
+								"value": "-250"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 261692908495392,
+							"parameters": {
+								"variable": "spawnSpeed",
+								"value": "1.2"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 414425643792059,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						}
+					],
+					"sid": 425893745713540,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 841380723381607
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "Score",
+									"sid": 133193429840208,
+									"parameters": {
+										"text": "\"SCORE: \" & score"
+									}
+								}
+							],
+							"sid": 316766378281323
+						}
+					]
 				}
 			],
-			"actions": [],
-			"sid": 348505903999304
+			"sid": 462315114630100
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Spawner",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "Bottle random spawn is bugged! Need to figure out how to make sprite spawn closer to edge of visible screen! Bottle is not reaching into layer!"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 818747310442954,
+							"parameters": {
+								"interval-seconds": "spawnSpeed"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 402252948122722,
+							"parameters": {
+								"object-to-create": "bottle",
+								"layer": "0",
+								"x": "water.Width",
+								"y": "random(0, water.Height)",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "bottle",
+							"sid": 557279540680818,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"speed": "trashSpeed"
+							}
+						}
+					],
+					"sid": 364798461294648
+				}
+			],
+			"sid": 426882801549799
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "GameOver",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "When bottle touches fish, the game should stop (no more spawning!)"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bottle",
+							"sid": 202365741495303,
+							"parameters": {
+								"object": "fish"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "bottle",
+							"sid": 273089707458751
+						}
+					],
+					"sid": 979638850110832
+				}
+			],
+			"sid": 354606418782415
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite2",
-					"sid": 984376841250377,
-					"parameters": {
-						"object": "Sprite"
-					}
-				}
-			],
+			"conditions": [],
 			"actions": [],
-			"sid": 363551230094384
+			"sid": 909418745696801,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "while",
+							"objectClass": "System",
+							"sid": 995094033250999
+						},
+						{
+							"id": "is-on-screen",
+							"objectClass": "bottle",
+							"sid": 543332198365157
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "bottle",
+							"sid": 235464001267352,
+							"parameters": {
+								"x": "floor(random(0,water.Width))",
+								"y": "floor(random(0, water.Height))"
+							}
+						}
+					],
+					"sid": 572591173632846
+				}
+			]
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 611491676458140
-				}
-			],
-			"actions": [
-				{
-					"id": "set-text",
-					"objectClass": "Score",
-					"sid": 275979301233434,
-					"parameters": {
-						"text": "\"Score: \" & score"
-					}
-				}
-			],
-			"sid": 416617419224753
+			"conditions": [],
+			"actions": [],
+			"sid": 256576513748013
 		}
 	],
 	"sid": 768058851844165

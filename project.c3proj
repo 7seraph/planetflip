@@ -41,11 +41,11 @@
 			"Title",
 			"TiledBackground",
 			"water",
-			"TiledBackground2",
-			"Sprite",
-			"Sprite2",
+			"grass",
+			"fish",
+			"bottle",
 			"Score",
-			"Sprite3"
+			"clock"
 		],
 		"subfolders": []
 	},
