@@ -102,7 +102,7 @@
 						"text": "SCORE: ",
 						"enable-bbcode": false,
 						"font": "8-BIT WONDER",
-						"size": 36,
+						"size": 33,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -221,7 +221,7 @@
 					"type": "water",
 					"properties": {
 						"initially-visible": true,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -246,12 +246,12 @@
 						"expanded": true
 					},
 					"world": {
-						"x": -1,
-						"y": 113,
+						"x": 1280,
+						"y": 371,
 						"width": 2560,
 						"height": 518,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -442,8 +442,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 1287,
-						"y": 332,
+						"x": 1546,
+						"y": 344,
 						"width": 46.42488951432486,
 						"height": 107.01330464318951,
 						"originX": 0.5,

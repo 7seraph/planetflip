@@ -70,7 +70,7 @@
 			"children": [
 				{
 					"eventType": "comment",
-					"text": "Set up the game"
+					"text": "Set up the game, remove all trash sprites"
 				},
 				{
 					"eventType": "block",
@@ -103,10 +103,10 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 919531761931071,
+							"sid": 113228352661493,
 							"parameters": {
 								"variable": "trashSpeed",
-								"value": "-400"
+								"value": "-350"
 							}
 						},
 						{
@@ -182,10 +182,10 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 849023848520051,
+							"sid": 328796050167106,
 							"parameters": {
 								"object-to-create": "bottle",
-								"layer": "0",
+								"layer": "1",
 								"x": "LayoutWidth",
 								"y": "random(1, LayoutHeight)",
 								"create-hierarchy": false,
@@ -225,7 +225,7 @@
 			"children": [
 				{
 					"eventType": "comment",
-					"text": "When bottle touches fish, the game should stop (no more spawning!)"
+					"text": "When bottle touches fish, the game stops; display score and interaction buttons for replayability"
 				},
 				{
 					"eventType": "block",
@@ -290,36 +290,7 @@
 			"eventType": "block",
 			"conditions": [],
 			"actions": [],
-			"sid": 909418745696801,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "while",
-							"objectClass": "System",
-							"sid": 995094033250999
-						},
-						{
-							"id": "is-on-screen",
-							"objectClass": "bottle",
-							"sid": 543332198365157
-						}
-					],
-					"actions": [
-						{
-							"id": "set-position",
-							"objectClass": "bottle",
-							"sid": 235464001267352,
-							"parameters": {
-								"x": "floor(random(0,water.Width))",
-								"y": "floor(random(0, water.Height))"
-							}
-						}
-					],
-					"sid": 572591173632846
-				}
-			]
+			"sid": 909418745696801
 		},
 		{
 			"eventType": "block",
