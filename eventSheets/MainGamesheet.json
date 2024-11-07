@@ -1,5 +1,5 @@
 {
-	"name": "Gamesheet",
+	"name": "MainGamesheet",
 	"events": [
 		{
 			"eventType": "variable",
@@ -20,6 +20,16 @@
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 861154592713104
+		},
+		{
+			"eventType": "variable",
+			"name": "lives",
+			"type": "number",
+			"initialValue": "3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 144250737565804
 		},
 		{
 			"eventType": "variable",
@@ -93,10 +103,10 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 574999569750448,
+							"sid": 919531761931071,
 							"parameters": {
 								"variable": "trashSpeed",
-								"value": "-250"
+								"value": "-400"
 							}
 						},
 						{
@@ -172,12 +182,12 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 402252948122722,
+							"sid": 849023848520051,
 							"parameters": {
 								"object-to-create": "bottle",
 								"layer": "0",
-								"x": "water.Width",
-								"y": "random(0, water.Height)",
+								"x": "LayoutWidth",
+								"y": "random(1, LayoutHeight)",
 								"create-hierarchy": false,
 								"template-name": "\"\""
 							}
@@ -200,6 +210,15 @@
 		{
 			"eventType": "group",
 			"disabled": false,
+			"title": "Lives",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 500821087014290
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
 			"title": "GameOver",
 			"description": "",
 			"isActiveOnStart": true,
@@ -214,7 +233,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "bottle",
-							"sid": 202365741495303,
+							"sid": 274993659653554,
 							"parameters": {
 								"object": "fish"
 							}
@@ -224,10 +243,45 @@
 						{
 							"id": "destroy",
 							"objectClass": "bottle",
-							"sid": 273089707458751
+							"sid": 568318469580289
+						},
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 672122734615362,
+							"parameters": {
+								"variable": "lives",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 979638850110832
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 107703490350127,
+							"parameters": {
+								"variable": "lives",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 211071884069304,
+							"parameters": {
+								"layout": "GameOver"
+							}
+						}
+					],
+					"sid": 749802113326158
 				}
 			],
 			"sid": 354606418782415

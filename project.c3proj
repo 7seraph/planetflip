@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -33,6 +40,13 @@
 			"name": "Bullet",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "destroy",
+			"name": "Destroy outside layout",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "8tzm48e1xxu",
@@ -45,7 +59,10 @@
 			"fish",
 			"bottle",
 			"Score",
-			"clock"
+			"clock",
+			"Text",
+			"Mouse",
+			"Play"
 		],
 		"subfolders": []
 	},
@@ -58,14 +75,16 @@
 	"layouts": {
 		"items": [
 			"Landing",
-			"Game"
+			"MainGame",
+			"GameOver"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Landingsheet",
-			"Gamesheet"
+			"MainGamesheet",
+			"Event sheet 1"
 		],
 		"subfolders": []
 	},
@@ -87,7 +106,16 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "8-BIT WONDER.TTF",
+					"type": "application/font-sfnt",
+					"sid": 266341755111566,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {

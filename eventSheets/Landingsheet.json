@@ -1,5 +1,32 @@
 {
 	"name": "Landingsheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 744113271404640,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Play"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 600280604678218,
+					"parameters": {
+						"layout": "MainGame"
+					}
+				}
+			],
+			"sid": 675875484341640
+		}
+	],
 	"sid": 186823678804632
 }

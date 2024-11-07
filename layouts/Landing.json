@@ -89,12 +89,12 @@
 				{
 					"type": "Title",
 					"properties": {
-						"text": "Title",
+						"text": "Rainbow Fish",
 						"enable-bbcode": true,
-						"font": "OCR A",
-						"size": 70,
+						"font": "8-BIT WONDER",
+						"size": 55,
 						"line-height": 0,
-						"bold": true,
+						"bold": false,
 						"italic": false,
 						"color": [
 							1,
@@ -103,7 +103,7 @@
 							1
 						],
 						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
+						"vertical-alignment": "center",
 						"wrapping": "word",
 						"text-direction": "ltr",
 						"icon-set": -1,
@@ -121,9 +121,9 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 485,
-						"y": 78,
-						"width": 359,
+						"x": 229,
+						"y": 31,
+						"width": 831,
 						"height": 156,
 						"originX": 0,
 						"originY": 0,
@@ -171,7 +171,59 @@
 			"name": "Buttons",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "Play",
+					"properties": {
+						"text": "PLAY",
+						"enable-bbcode": true,
+						"font": "8-BIT WONDER",
+						"size": 26,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 15,
+					"sid": 754897813056325,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 754897813056325,
+						"expanded": true
+					},
+					"world": {
+						"x": 575,
+						"y": 325,
+						"width": 164,
+						"height": 54,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 168361316277908,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

@@ -9,6 +9,11 @@
 			"behaviorId": "Bullet",
 			"name": "Bullet",
 			"sid": 433356109837575
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 431326194026454
 		}
 	],
 	"effectTypes": [],
