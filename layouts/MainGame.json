@@ -429,6 +429,12 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
+						},
+						"DragDrop": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
 						}
 					},
 					"instanceFolderItem": {
