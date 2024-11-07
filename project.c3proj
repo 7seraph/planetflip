@@ -69,7 +69,11 @@
 			"clock",
 			"Text",
 			"Mouse",
-			"Play"
+			"Play",
+			"glassbottle",
+			"paperbag",
+			"sodacan",
+			"papercup"
 		],
 		"subfolders": []
 	},
