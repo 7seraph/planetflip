@@ -127,30 +127,7 @@
 							}
 						}
 					],
-					"sid": 425893745713540,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "every-tick",
-									"objectClass": "System",
-									"sid": 841380723381607
-								}
-							],
-							"actions": [
-								{
-									"id": "set-text",
-									"objectClass": "Score",
-									"sid": 133193429840208,
-									"parameters": {
-										"text": "\"SCORE: \" & score"
-									}
-								}
-							],
-							"sid": 316766378281323
-						}
-					]
+					"sid": 425893745713540
 				}
 			],
 			"sid": 462315114630100
@@ -182,7 +159,7 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 328796050167106,
+							"sid": 171300311721818,
 							"parameters": {
 								"object-to-create": "bottle",
 								"layer": "1",
@@ -203,6 +180,27 @@
 						}
 					],
 					"sid": 364798461294648
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 203387083303502
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Score",
+							"sid": 321210431675236,
+							"parameters": {
+								"text": "\"Score: \" & str(score)"
+							}
+						}
+					],
+					"sid": 970396559397275
 				}
 			],
 			"sid": 426882801549799
@@ -213,7 +211,46 @@
 			"title": "Lives",
 			"description": "",
 			"isActiveOnStart": true,
-			"children": [],
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 180010735770576,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "bottle"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "bottle",
+							"sid": 508929068399077
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 644675898515156,
+							"parameters": {
+								"variable": "score",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 591413268962578
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [],
+					"sid": 836779973025919
+				}
+			],
 			"sid": 500821087014290
 		},
 		{
@@ -233,9 +270,9 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "bottle",
-							"sid": 274993659653554,
+							"sid": 297910188580685,
 							"parameters": {
-								"object": "fish"
+								"object": "Custom_Fish"
 							}
 						}
 					],

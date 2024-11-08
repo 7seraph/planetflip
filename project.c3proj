@@ -43,13 +43,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "DragnDrop",
-			"name": "Drag & Drop",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "destroy",
 			"name": "Destroy outside layout",
 			"author": "Scirra",
@@ -70,7 +63,10 @@
 			"Text",
 			"Mouse",
 			"Play",
-			"Custom_Fish"
+			"Custom_Fish",
+			"gallery",
+			"TiledBackground2",
+			"options"
 		],
 		"subfolders": []
 	},
@@ -119,6 +115,14 @@
 					"name": "8-BIT WONDER.TTF",
 					"type": "application/font-sfnt",
 					"sid": 266341755111566,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "04B_30__.TTF",
+					"type": "application/font-sfnt",
+					"sid": 689804799726024,
 					"file-info": {
 						"purpose": "none"
 					}

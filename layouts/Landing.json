@@ -91,7 +91,7 @@
 					"properties": {
 						"text": "Rainbow Fish",
 						"enable-bbcode": true,
-						"font": "8-BIT WONDER",
+						"font": "04B_30__",
 						"size": 55,
 						"line-height": 0,
 						"bold": false,
@@ -121,9 +121,9 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 229,
-						"y": 31,
-						"width": 831,
+						"x": 275,
+						"y": 43,
+						"width": 707,
 						"height": 156,
 						"originX": 0,
 						"originY": 0,
@@ -177,7 +177,7 @@
 					"properties": {
 						"text": "PLAY",
 						"enable-bbcode": true,
-						"font": "8-BIT WONDER",
+						"font": "04B_30__",
 						"size": 26,
 						"line-height": 0,
 						"bold": false,
@@ -207,10 +207,112 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 575,
-						"y": 325,
+						"x": 559,
+						"y": 314,
 						"width": 164,
 						"height": 54,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "gallery",
+					"properties": {
+						"text": "gallery",
+						"enable-bbcode": true,
+						"font": "04B_30__",
+						"size": 26,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 19,
+					"sid": 528546940777149,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 528546940777149,
+						"expanded": true
+					},
+					"world": {
+						"x": 498,
+						"y": 385,
+						"width": 290,
+						"height": 50,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "options",
+					"properties": {
+						"text": "options",
+						"enable-bbcode": true,
+						"font": "04B_30__",
+						"size": 26,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 9,
+					"sid": 589126524285606,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 589126524285606,
+						"expanded": true
+					},
+					"world": {
+						"x": 544,
+						"y": 445,
+						"width": 202,
+						"height": 49,
 						"originX": 0,
 						"originY": 0,
 						"color": [

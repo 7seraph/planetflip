@@ -14,11 +14,6 @@
 			"behaviorId": "destroy",
 			"name": "DestroyOutsideLayout",
 			"sid": 431326194026454
-		},
-		{
-			"behaviorId": "DragnDrop",
-			"name": "DragDrop",
-			"sid": 452096535906499
 		}
 	],
 	"effectTypes": [],

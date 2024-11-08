@@ -131,10 +131,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 26,
-						"y": 36,
-						"width": 294,
-						"height": 57,
+						"x": 28,
+						"y": 28,
+						"width": 606,
+						"height": 60,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -166,10 +166,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 992,
-						"y": 79,
-						"width": 101.01107905671027,
-						"height": 101.01107905671027,
+						"x": 1043,
+						"y": 58,
+						"width": 116.33377712457273,
+						"height": 116.33377712457273,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -298,111 +298,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "fish",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"sid": 812972934987837,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 812972934987837,
-						"expanded": true
-					},
-					"world": {
-						"x": 148,
-						"y": 540,
-						"width": 98.91172635880399,
-						"height": 71.62573288051323,
-						"originX": 0.5,
-						"originY": 0.5476190476190477,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "fish",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 9,
-					"sid": 375595577504637,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 375595577504637,
-						"expanded": true
-					},
-					"world": {
-						"x": 100,
-						"y": 427,
-						"width": 98.75115694305397,
-						"height": 71.50945847600461,
-						"originX": 0.5,
-						"originY": 0.5476190476190477,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "fish",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 10,
-					"sid": 370447133145667,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 370447133145667,
-						"expanded": true
-					},
-					"world": {
-						"x": 166,
-						"y": 324,
-						"width": 98.75115694305397,
-						"height": 71.50945847600461,
-						"originX": 0.5,
-						"originY": 0.5476190476190477,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "bottle",
 					"properties": {
 						"initially-visible": true,
@@ -429,12 +324,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"DragDrop": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
 						}
 					},
 					"instanceFolderItem": {
@@ -512,8 +401,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 109,
-						"y": 176,
+						"x": 157,
+						"y": 192,
 						"width": 160.9375,
 						"height": 85.06944444444444,
 						"originX": 0.5048543689320388,
@@ -547,8 +436,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 329,
-						"y": 257,
+						"x": 204,
+						"y": 329,
 						"width": 160.9375,
 						"height": 85.06944444444444,
 						"originX": 0.5048543689320388,
@@ -582,8 +471,43 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 342,
-						"y": 408,
+						"x": 210,
+						"y": 527,
+						"width": 160.9375,
+						"height": 85.06944444444444,
+						"originX": 0.5048543689320388,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Custom_Fish",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"sid": 720169808800344,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 720169808800344,
+						"expanded": true
+					},
+					"world": {
+						"x": 313,
+						"y": 431,
 						"width": 160.9375,
 						"height": 85.06944444444444,
 						"originX": 0.5048543689320388,
