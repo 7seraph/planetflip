@@ -69,7 +69,8 @@
 			"clock",
 			"Text",
 			"Mouse",
-			"Play"
+			"Play",
+			"Custom_Fish"
 		],
 		"subfolders": []
 	},
