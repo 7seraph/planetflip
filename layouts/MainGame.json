@@ -514,9 +514,79 @@
 					"world": {
 						"x": 109,
 						"y": 176,
-						"width": 250,
-						"height": 245,
-						"originX": 0.5,
+						"width": 160.9375,
+						"height": 85.06944444444444,
+						"originX": 0.5048543689320388,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Custom_Fish",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 17,
+					"sid": 205128866001584,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 205128866001584,
+						"expanded": true
+					},
+					"world": {
+						"x": 329,
+						"y": 257,
+						"width": 160.9375,
+						"height": 85.06944444444444,
+						"originX": 0.5048543689320388,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Custom_Fish",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"sid": 529473546690925,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 529473546690925,
+						"expanded": true
+					},
+					"world": {
+						"x": 342,
+						"y": 408,
+						"width": 160.9375,
+						"height": 85.06944444444444,
+						"originX": 0.5048543689320388,
 						"originY": 0.5,
 						"color": [
 							1,
