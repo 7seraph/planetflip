@@ -66,7 +66,11 @@
 			"Custom_Fish",
 			"gallery",
 			"TiledBackground2",
-			"options"
+			"options",
+			"bottle_2",
+			"paper_bag",
+			"glass_bottle",
+			"paper_cup"
 		],
 		"subfolders": []
 	},
