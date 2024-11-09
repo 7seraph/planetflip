@@ -322,6 +322,11 @@
 								"enabled": true
 							}
 						},
+						"Tween": {
+							"properties": {
+								"enabled": true
+							}
+						},
 						"Bullet": {
 							"properties": {
 								"speed": 0,
@@ -519,6 +524,41 @@
 						"width": 160.9375,
 						"height": 85.06944444444444,
 						"originX": 0.5048543689320388,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "trash_can",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"sid": 795155398687464,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 795155398687464,
+						"expanded": true
+					},
+					"world": {
+						"x": 682,
+						"y": 533,
+						"width": 257.99759421492604,
+						"height": 374.09651161164277,
+						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
 							1,

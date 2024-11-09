@@ -161,12 +161,12 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 774065585351556,
+							"sid": 574225812855453,
 							"parameters": {
 								"object-to-create": "trash_sprites",
 								"layer": "1",
 								"x": "LayoutWidth",
-								"y": "random(1, LayoutHeight)",
+								"y": "random(55, 315)",
 								"create-hierarchy": false,
 								"template-name": "\"\""
 							}
@@ -243,9 +243,47 @@
 					],
 					"actions": [
 						{
-							"id": "destroy",
+							"id": "set-speed",
 							"objectClass": "trash_sprites",
-							"sid": 215769381638840
+							"sid": 602431487247181,
+							"behaviorType": "Bullet2",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "trash_sprites",
+							"sid": 967554780280017,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"move_trash_x\"",
+								"property": "offsetX",
+								"end-value": "trash_can.X",
+								"time": "1",
+								"ease": "easeinback",
+								"destroy-on-complete": "yes",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "trash_sprites",
+							"sid": 238391462041249,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"move_trash_x\"",
+								"property": "offsetY",
+								"end-value": "trash_can.Y",
+								"time": "1",
+								"ease": "easeinback",
+								"destroy-on-complete": "yes",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
 						},
 						{
 							"id": "add-to-eventvar",

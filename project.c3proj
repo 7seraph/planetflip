@@ -40,6 +40,13 @@
 			"name": "Bullet",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "8tzm48e1xxu",
@@ -63,7 +70,8 @@
 			"bottle_2",
 			"paper_bag",
 			"glass_bottle",
-			"paper_cup"
+			"paper_cup",
+			"trash_can"
 		],
 		"subfolders": []
 	},

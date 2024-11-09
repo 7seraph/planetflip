@@ -8,6 +8,11 @@
 			"behaviorId": "Bullet",
 			"name": "Bullet2",
 			"sid": 667328766414447
+		},
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 396734320442082
 		}
 	],
 	"effectTypes": [],
