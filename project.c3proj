@@ -40,13 +40,6 @@
 			"name": "Bullet",
 			"author": "Scirra",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "destroy",
-			"name": "Destroy outside layout",
-			"author": "Scirra",
-			"bundled": false
 		}
 	],
 	"uniqueId": "8tzm48e1xxu",
@@ -77,7 +70,9 @@
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"trash_sprites"
+		],
 		"subfolders": []
 	},
 	"layouts": {

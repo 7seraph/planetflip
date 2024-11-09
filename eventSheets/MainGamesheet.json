@@ -62,6 +62,16 @@
 			"sid": 178882491687161
 		},
 		{
+			"eventType": "variable",
+			"name": "randomize",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 402110122923746
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Initialize",
@@ -103,27 +113,19 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 113228352661493,
+							"sid": 820144365150296,
 							"parameters": {
 								"variable": "trashSpeed",
-								"value": "-350"
+								"value": "-300"
 							}
 						},
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 261692908495392,
+							"sid": 326025662461718,
 							"parameters": {
 								"variable": "spawnSpeed",
-								"value": "1.2"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 414425643792059,
-							"parameters": {
-								"seconds": "1.0"
+								"value": "1.5"
 							}
 						}
 					],
@@ -149,7 +151,7 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 818747310442954,
+							"sid": 796785485807952,
 							"parameters": {
 								"interval-seconds": "spawnSpeed"
 							}
@@ -159,27 +161,40 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 171300311721818,
+							"sid": 774065585351556,
 							"parameters": {
-								"object-to-create": "bottle",
+								"object-to-create": "trash_sprites",
 								"layer": "1",
 								"x": "LayoutWidth",
 								"y": "random(1, LayoutHeight)",
 								"create-hierarchy": false,
 								"template-name": "\"\""
 							}
-						},
+						}
+					],
+					"sid": 819979195357241
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "trash_sprites",
+							"sid": 479133242054032
+						}
+					],
+					"actions": [
 						{
 							"id": "set-speed",
-							"objectClass": "bottle",
-							"sid": 557279540680818,
-							"behaviorType": "Bullet",
+							"objectClass": "trash_sprites",
+							"sid": 649967972354453,
+							"behaviorType": "Bullet2",
 							"parameters": {
 								"speed": "trashSpeed"
 							}
 						}
 					],
-					"sid": 364798461294648
+					"sid": 418453077528202
 				},
 				{
 					"eventType": "block",
@@ -218,37 +233,49 @@
 						{
 							"id": "on-object-clicked",
 							"objectClass": "Mouse",
-							"sid": 180010735770576,
+							"sid": 954599554845707,
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked",
-								"object-clicked": "bottle"
+								"object-clicked": "trash_sprites"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "destroy",
-							"objectClass": "bottle",
-							"sid": 508929068399077
+							"objectClass": "trash_sprites",
+							"sid": 215769381638840
 						},
 						{
 							"id": "add-to-eventvar",
 							"objectClass": "System",
-							"sid": 644675898515156,
+							"sid": 454258985288171,
 							"parameters": {
 								"variable": "score",
 								"value": "1"
 							}
 						}
 					],
-					"sid": 591413268962578
+					"sid": 242129082777027
 				},
 				{
 					"eventType": "block",
-					"conditions": [],
-					"actions": [],
-					"sid": 836779973025919
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "trash_sprites",
+							"sid": 101041775838161
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "trash_sprites",
+							"sid": 787844557313135
+						}
+					],
+					"sid": 511042101605956
 				}
 			],
 			"sid": 500821087014290
@@ -269,8 +296,8 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "bottle",
-							"sid": 297910188580685,
+							"objectClass": "trash_sprites",
+							"sid": 171649464121630,
 							"parameters": {
 								"object": "Custom_Fish"
 							}

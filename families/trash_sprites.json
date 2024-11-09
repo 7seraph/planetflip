@@ -1,0 +1,21 @@
+{
+	"name": "trash_sprites",
+	"plugin-id": "Sprite",
+	"sid": 818278934065982,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet2",
+			"sid": 667328766414447
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"paper_cup",
+		"bottle_2",
+		"bottle",
+		"glass_bottle",
+		"paper_bag"
+	]
+}
