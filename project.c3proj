@@ -53,7 +53,6 @@
 	"objectTypes": {
 		"items": [
 			"Title",
-			"TiledBackground",
 			"water",
 			"grass",
 			"fish",
@@ -65,13 +64,15 @@
 			"Play",
 			"Custom_Fish",
 			"gallery",
-			"TiledBackground2",
 			"options",
 			"bottle_2",
 			"paper_bag",
 			"glass_bottle",
 			"paper_cup",
-			"trash_can"
+			"trash_can",
+			"landingbg",
+			"Score2",
+			"PlayAgain"
 		],
 		"subfolders": []
 	},
@@ -95,7 +96,7 @@
 		"items": [
 			"Landingsheet",
 			"MainGamesheet",
-			"Event sheet 1"
+			"GameOversheet"
 		],
 		"subfolders": []
 	},
