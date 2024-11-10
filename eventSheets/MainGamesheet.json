@@ -161,12 +161,12 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 574225812855453,
+							"sid": 718485786950930,
 							"parameters": {
 								"object-to-create": "trash_sprites",
 								"layer": "1",
 								"x": "LayoutWidth",
-								"y": "random(55, 315)",
+								"y": "random(80, 370)",
 								"create-hierarchy": false,
 								"template-name": "\"\""
 							}
@@ -216,6 +216,12 @@
 						}
 					],
 					"sid": 970396559397275
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [],
+					"sid": 144589304469018
 				}
 			],
 			"sid": 426882801549799
@@ -344,8 +350,8 @@
 					"actions": [
 						{
 							"id": "destroy",
-							"objectClass": "bottle",
-							"sid": 568318469580289
+							"objectClass": "trash_sprites",
+							"sid": 989722726805951
 						},
 						{
 							"id": "subtract-from-eventvar",
@@ -354,6 +360,14 @@
 							"parameters": {
 								"variable": "lives",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "livesDisplay",
+							"sid": 621738874563841,
+							"parameters": {
+								"text": "\"Lives Remaining: \" & str(lives)"
 							}
 						}
 					],

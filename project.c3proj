@@ -47,6 +47,13 @@
 			"name": "Tween",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "wrap",
+			"name": "Wrap",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "8tzm48e1xxu",
@@ -71,7 +78,8 @@
 			"paper_bag",
 			"glass_bottle",
 			"paper_cup",
-			"trash_can"
+			"trash_can",
+			"livesDisplay"
 		],
 		"subfolders": []
 	},

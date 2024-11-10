@@ -4,7 +4,18 @@
 	"sid": 190850629712355,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "wrap",
+			"name": "Wrap",
+			"sid": 177179750574420
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 301782040333384
+		}
+	],
 	"effectTypes": [],
 	"image": {
 		"width": 1184,
@@ -15,7 +26,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 8071480,
+		"imageSpriteId": 6809973,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

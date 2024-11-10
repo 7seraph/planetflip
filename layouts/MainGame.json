@@ -222,8 +222,8 @@
 					"properties": {
 						"initially-visible": true,
 						"origin": "center",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
+						"wrap-horizontal": "clamp-to-edge",
+						"wrap-vertical": "clamp-to-edge",
 						"image-offset-x": 0,
 						"image-offset-y": 0,
 						"image-scale-x": 1,
@@ -240,15 +240,94 @@
 					"sid": 461440925608103,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Wrap": {
+							"properties": {
+								"wrap-to": "viewport"
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": -300,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 461440925608103,
 						"expanded": true
 					},
 					"world": {
-						"x": 1280,
+						"x": 640,
 						"y": 371,
-						"width": 2560,
+						"width": 1280,
+						"height": 518,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "water",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "clamp-to-edge",
+						"wrap-vertical": "clamp-to-edge",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 11,
+					"sid": 962064889554601,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Wrap": {
+							"properties": {
+								"wrap-to": "viewport"
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": -300,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 962064889554601,
+						"expanded": true
+					},
+					"world": {
+						"x": 1921,
+						"y": 371,
+						"width": 1280,
 						"height": 518,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -296,71 +375,7 @@
 			"name": "obj",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [
-				{
-					"type": "bottle",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 11,
-					"sid": 928665492536762,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Bullet2": {
-							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
-						},
-						"Bullet": {
-							"properties": {
-								"speed": 0,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 928665492536762,
-						"expanded": true
-					},
-					"world": {
-						"x": 1546,
-						"y": 344,
-						"width": 46.42488951432486,
-						"height": 107.01330464318951,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							0.9
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				}
-			],
+			"instances": [],
 			"sid": 317612230328197,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -560,6 +575,57 @@
 						"height": 374.09651161164277,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "livesDisplay",
+					"properties": {
+						"text": "Lives Remaining: 3",
+						"enable-bbcode": true,
+						"font": "8-BIT WONDER",
+						"size": 20,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 20,
+					"sid": 860189485189740,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 860189485189740,
+						"expanded": true
+					},
+					"world": {
+						"x": 571,
+						"y": 4,
+						"width": 250,
+						"height": 100,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
