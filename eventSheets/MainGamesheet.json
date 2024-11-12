@@ -72,6 +72,16 @@
 			"sid": 402110122923746
 		},
 		{
+			"eventType": "variable",
+			"name": "trashAccel",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 840378739350246
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Initialize",
@@ -92,6 +102,15 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 651410744538732,
+							"parameters": {
+								"variable": "lives",
+								"value": "3"
+							}
+						},
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
@@ -126,6 +145,15 @@
 							"parameters": {
 								"variable": "spawnSpeed",
 								"value": "1.5"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 363240934024688,
+							"parameters": {
+								"variable": "trashAccel",
+								"value": "0"
 							}
 						}
 					],
@@ -404,8 +432,28 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 516393766147057,
+					"parameters": {
+						"variable": "lives",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 222745593755904,
+					"parameters": {
+						"layout": "GameOver"
+					}
+				}
+			],
 			"sid": 909418745696801
 		},
 		{
