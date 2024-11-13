@@ -146,41 +146,6 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "clock",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 12,
-					"sid": 776352212530932,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 776352212530932,
-						"expanded": true
-					},
-					"world": {
-						"x": 1043,
-						"y": 58,
-						"width": 116.33377712457273,
-						"height": 116.33377712457273,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 895411160969678,
@@ -620,9 +585,9 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 571,
-						"y": 4,
-						"width": 250,
+						"x": 786,
+						"y": 7,
+						"width": 439,
 						"height": 100,
 						"originX": 0,
 						"originY": 0,

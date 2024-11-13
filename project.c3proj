@@ -60,26 +60,24 @@
 	"objectTypes": {
 		"items": [
 			"Title",
-			"TiledBackground",
 			"water",
 			"grass",
 			"fish",
 			"bottle",
 			"Score",
-			"clock",
 			"Text",
 			"Mouse",
 			"Play",
 			"Custom_Fish",
 			"gallery",
-			"TiledBackground2",
 			"options",
 			"bottle_2",
 			"paper_bag",
 			"glass_bottle",
 			"paper_cup",
 			"trash_can",
-			"livesDisplay"
+			"livesDisplay",
+			"landingBG"
 		],
 		"subfolders": []
 	},

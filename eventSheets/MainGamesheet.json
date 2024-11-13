@@ -113,6 +113,15 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
+							"sid": 891710755394381,
+							"parameters": {
+								"variable": "lives",
+								"value": "3"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
 							"sid": 820144365150296,
 							"parameters": {
 								"variable": "trashSpeed",
@@ -143,7 +152,7 @@
 			"children": [
 				{
 					"eventType": "comment",
-					"text": "Bottle random spawn is bugged! Need to figure out how to make sprite spawn closer to edge of visible screen! Bottle is not reaching into layer!"
+					"text": "Random spawn of trash & update score counter"
 				},
 				{
 					"eventType": "block",
