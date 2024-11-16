@@ -303,10 +303,10 @@
 						{
 							"id": "add-to-eventvar",
 							"objectClass": "System",
-							"sid": 454258985288171,
+							"sid": 893849044901482,
 							"parameters": {
 								"variable": "score",
-								"value": "1"
+								"value": "int(random(1, 4))"
 							}
 						}
 					],

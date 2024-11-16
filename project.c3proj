@@ -62,7 +62,6 @@
 			"Title",
 			"water",
 			"grass",
-			"fish",
 			"bottle",
 			"Score",
 			"Text",
@@ -77,7 +76,10 @@
 			"paper_cup",
 			"trash_can",
 			"livesDisplay",
-			"landingBG"
+			"landingBG",
+			"playagain",
+			"goToLanding",
+			"buttons"
 		],
 		"subfolders": []
 	},
@@ -101,7 +103,7 @@
 		"items": [
 			"Landingsheet",
 			"MainGamesheet",
-			"Event sheet 1"
+			"GameOverSheet"
 		],
 		"subfolders": []
 	},

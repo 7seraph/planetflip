@@ -1,5 +1,5 @@
 {
-	"name": "Landingsheet",
+	"name": "GameOverSheet",
 	"events": [
 		{
 			"eventType": "block",
@@ -7,11 +7,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 744113271404640,
+					"sid": 567931051708883,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Play"
+						"object-clicked": "playagain"
 					}
 				}
 			],
@@ -19,13 +19,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 600280604678218,
+					"sid": 709410060311718,
 					"parameters": {
 						"layout": "MainGame"
 					}
 				}
 			],
-			"sid": 675875484341640
+			"sid": 962643986399947
 		},
 		{
 			"eventType": "block",
@@ -33,34 +33,26 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 879443060602619,
+					"sid": 442103574742450,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "gallery"
+						"object-clicked": "goToLanding"
 					}
 				}
 			],
-			"actions": [],
-			"sid": 942242693715503
-		},
-		{
-			"eventType": "block",
-			"conditions": [
+			"actions": [
 				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 206623946458060,
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 125749384655847,
 					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "options"
+						"layout": "Landing"
 					}
 				}
 			],
-			"actions": [],
-			"sid": 256171203628990
+			"sid": 333229270679955
 		}
 	],
-	"sid": 186823678804632
+	"sid": 788526136047247
 }
