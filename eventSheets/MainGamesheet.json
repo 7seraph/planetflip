@@ -122,10 +122,10 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 820144365150296,
+							"sid": 963169566620829,
 							"parameters": {
 								"variable": "trashSpeed",
-								"value": "-300"
+								"value": "-200"
 							}
 						},
 						{
@@ -228,8 +228,27 @@
 				},
 				{
 					"eventType": "block",
-					"conditions": [],
-					"actions": [],
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 328385553720721,
+							"parameters": {
+								"interval-seconds": "10"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 358479835107127,
+							"parameters": {
+								"variable": "trashSpeed",
+								"value": "-50"
+							}
+						}
+					],
 					"sid": 144589304469018
 				}
 			],
