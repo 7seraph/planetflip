@@ -82,7 +82,11 @@
 			"buttons",
 			"Bluegill",
 			"R_Trout",
-			"Halibut"
+			"Halibut",
+			"TiledBackground",
+			"TiledBackground2",
+			"TiledBackground3",
+			"TiledBackground4"
 		],
 		"subfolders": []
 	},
