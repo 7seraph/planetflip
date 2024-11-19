@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 40702,
+	"savedWithRelease": 41600,
 	"name": "planetflip",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -67,7 +67,7 @@
 			"Text",
 			"Mouse",
 			"Play",
-			"Custom_Fish",
+			"Largemouth_Bass",
 			"gallery",
 			"options",
 			"bottle_2",
@@ -79,7 +79,10 @@
 			"landingBG",
 			"playagain",
 			"goToLanding",
-			"buttons"
+			"buttons",
+			"Bluegill",
+			"R_Trout",
+			"Halibut"
 		],
 		"subfolders": []
 	},
@@ -275,7 +278,6 @@
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",
-		"autoReloadScriptsOnPreview": false,
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},

@@ -1,0 +1,61 @@
+{
+	"name": "Largemouth_Bass",
+	"plugin-id": "Sprite",
+	"sid": 135493675602867,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 103,
+						"height": 50,
+						"originX": 0.5048543689320388,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 983320,
+						"collisionPoly": {
+							"points": [
+								0.5825242718446602,
+								0.02,
+								0.6504854368932039,
+								0.02,
+								0.9902912621359223,
+								0.5,
+								0.9514563106796117,
+								0.74,
+								0.8737864077669902,
+								0.82,
+								0.6116504854368932,
+								0.98,
+								0.019417475728155338,
+								0.8,
+								0.009708737864077669,
+								0.24,
+								0.3300970873786408,
+								0.08
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 747689963576791,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
