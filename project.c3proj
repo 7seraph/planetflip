@@ -98,7 +98,8 @@
 		"items": [
 			"Landing",
 			"MainGame",
-			"GameOver"
+			"GameOver",
+			"Gallery"
 		],
 		"subfolders": []
 	},
@@ -106,7 +107,8 @@
 		"items": [
 			"Landingsheet",
 			"MainGamesheet",
-			"GameOverSheet"
+			"GameOverSheet",
+			"Gallery"
 		],
 		"subfolders": []
 	},
