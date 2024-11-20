@@ -52,6 +52,27 @@
 				}
 			],
 			"sid": 333229270679955
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 857625335576646
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "score2",
+					"sid": 250916677611124,
+					"parameters": {
+						"text": "\"Your score: \" & str(score)"
+					}
+				}
+			],
+			"sid": 372571367101396
 		}
 	],
 	"sid": 788526136047247

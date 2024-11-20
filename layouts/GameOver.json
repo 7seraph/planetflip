@@ -7,37 +7,31 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Text",
+					"type": "gameOverbg",
 					"properties": {
-						"text": "Game Over!",
-						"enable-bbcode": true,
-						"font": "8-BIT WONDER",
-						"size": 20,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"text-direction": "ltr",
-						"icon-set": -1,
 						"initially-visible": true,
 						"origin": "top-left",
-						"read-aloud": false
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 2,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
 					},
-					"uid": 13,
-					"sid": 717996518830002,
+					"uid": 34,
+					"sid": 209708105745991,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 717996518830002,
+						"sid": 209708105745991,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -46,10 +40,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 484,
-						"y": 247,
-						"width": 273,
-						"height": 45,
+						"x": 0,
+						"y": -85,
+						"width": 1281,
+						"height": 800,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -121,8 +115,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 410,
-						"y": 371,
+						"x": 439,
+						"y": 406,
 						"width": 213.66305522238144,
 						"height": 60.77319983497512,
 						"originX": 0.2276657060518732,
@@ -161,12 +155,68 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 667,
-						"y": 373,
+						"x": 696,
+						"y": 406,
 						"width": 213.66305522238144,
 						"height": 60.77319983497512,
 						"originX": 0.2276657060518732,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Game Over!",
+						"enable-bbcode": true,
+						"font": "8-BIT WONDER",
+						"size": 20,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 13,
+					"sid": 717996518830002,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 717996518830002,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 474,
+						"y": 266,
+						"width": 273,
+						"height": 45,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -252,8 +302,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 383,
-						"y": 356,
+						"x": 412,
+						"y": 391,
 						"width": 215,
 						"height": 30,
 						"originX": 0,
@@ -308,8 +358,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 643,
-						"y": 357,
+						"x": 672,
+						"y": 392,
 						"width": 200,
 						"height": 30,
 						"originX": 0,
@@ -326,6 +376,97 @@
 				}
 			],
 			"sid": 160396223208297,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "hud",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "score2",
+					"properties": {
+						"text": "Your score: ",
+						"enable-bbcode": true,
+						"font": "8-BIT WONDER",
+						"size": 17,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 33,
+					"sid": 967839868316104,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 967839868316104,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 430,
+						"y": 334,
+						"width": 433,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 198404967483936,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
