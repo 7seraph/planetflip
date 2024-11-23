@@ -1,7 +1,7 @@
 {
-	"name": "landingBG",
+	"name": "gallery_titled_background",
 	"plugin-id": "TiledBg",
-	"sid": 937263720802596,
+	"sid": 709778253682042,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -15,7 +15,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 5557056,
+		"imageSpriteId": 8905044,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

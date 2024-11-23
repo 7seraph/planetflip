@@ -88,7 +88,9 @@
 			"TiledBackground3",
 			"TiledBackground4",
 			"score2",
-			"gameOverbg"
+			"gameOverbg",
+			"gallery_titled_background",
+			"title_background_gallery"
 		],
 		"subfolders": []
 	},
