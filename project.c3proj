@@ -90,12 +90,26 @@
 			"score2",
 			"gameOverbg",
 			"gallery_titled_background",
-			"title_background_gallery"
+			"title_background_gallery",
+			"button_slides",
+			"button_slide_two",
+			"trail_slide",
+			"slide_two_trail",
+			"left_temporary_sprite_gallery_button",
+			"button_txt_temp_gallery",
+			"temp_right_gallery"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [],
+	"containers": [
+		{
+			"members": [
+				"slide_two_trail",
+				"trail_slide"
+			]
+		}
+	],
 	"families": {
 		"items": [
 			"trash_sprites"
@@ -116,7 +130,7 @@
 			"Landingsheet",
 			"MainGamesheet",
 			"GameOverSheet",
-			"Gallery"
+			"GalleryGameSheet"
 		],
 		"subfolders": []
 	},
