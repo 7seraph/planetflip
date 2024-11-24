@@ -13,7 +13,7 @@
 						"origin": "top-left",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
-						"image-offset-x": 2,
+						"image-offset-x": 0,
 						"image-offset-y": 0,
 						"image-scale-x": 1,
 						"image-scale-y": 1,
@@ -41,77 +41,9 @@
 					"locked": false,
 					"world": {
 						"x": 0,
-						"y": -85,
-						"width": 1281,
-						"height": 800,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "fun_fact",
-					"properties": {
-						"text": "fun fact:",
-						"enable-bbcode": true,
-						"font": "04B_30__",
-						"size": 15,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"text-direction": "ltr",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 42,
-					"sid": 979207926503204,
-					"tags": "",
-					"instanceVariables": {
-						"fact1": "About 130,000 pounds of trash has been picked up from local San Diego beaches and waterways",
-						"fact2": "The most common piece of waste polluted in oceans and waterways are cigarette butts",
-						"fact3": "Plastics give off harmful chemicals that affect marine life",
-						"fact4": "Over 11,000 pounds of plastic food wrappers, and over 8500 straws, and almost 3000 plastic bags were picked up in San Diego in 2022",
-						"fact5": "The Great Pacific Garbage Patch is a massive area of floating waste in the Pacific Ocean. It is estimated to be about twice the size of Texas and contains about 2 trillion pieces of trash!",
-						"fact6": "Over 700 species of marine animals, including animals that we eat, have ingested plastics, leading to serious effects such as malnutrition, internal injuries, and even death",
-						"fact7": "Plastic bags can take up to 1000 years to decompose in the ocean",
-						"fact8": "Over 8 million tons of plastic enter the ocean each year, which is equivalent to dumping one garbage truck full of plastic into the ocean everyday!",
-						"fact9": "Plastic bottles can take up to 450 years to break down",
-						"fact10": "A single ton of recycled paper and plastic can save 17 trees and 7000 gallons of water",
-						"fact11": "Over 100,00 marine mammals are killed by plastic each year!"
-					},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 979207926503204,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 411,
-						"y": 373,
-						"width": 518.5746260060791,
-						"height": 138.8454775259534,
+						"y": 1,
+						"width": 1278,
+						"height": 856,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -155,6 +87,81 @@
 			"global": false
 		},
 		{
+			"name": "box",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "gameOverbox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 43,
+					"sid": 859609653909887,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 859609653909887,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 650,
+						"y": 533.7081218274111,
+						"width": 626.2945736434108,
+						"height": 174,
+						"originX": 0.5,
+						"originY": 1.0126903553299493,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 691710620207196,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
 			"name": "buttons",
 			"overriden": 0,
 			"subLayers": [],
@@ -183,8 +190,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 469.8894307339649,
-						"y": 314.7995244881135,
+						"x": 451,
+						"y": 655,
 						"width": 213.66305522238144,
 						"height": 60.77319983497512,
 						"originX": 0.2276657060518732,
@@ -223,8 +230,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 729.3125292416695,
-						"y": 314.3432037472465,
+						"x": 710,
+						"y": 654,
 						"width": 213.66305522238144,
 						"height": 60.77319983497512,
 						"originX": 0.2276657060518732,
@@ -279,8 +286,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 524,
-						"y": 158,
+						"x": 498,
+						"y": 245,
 						"width": 273,
 						"height": 45,
 						"originX": 0,
@@ -370,8 +377,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 444.8774327213082,
-						"y": 299.38211481817314,
+						"x": 426,
+						"y": 637,
 						"width": 215,
 						"height": 30,
 						"originX": 0,
@@ -426,10 +433,78 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 705.7476257620314,
-						"y": 298.65587821706373,
+						"x": 687,
+						"y": 637,
 						"width": 200,
 						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "fun_fact",
+					"properties": {
+						"text": "fun fact:",
+						"enable-bbcode": true,
+						"font": "04B_30__",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 42,
+					"sid": 979207926503204,
+					"tags": "",
+					"instanceVariables": {
+						"fact1": "About 130,000 pounds of trash has been picked up from local San Diego beaches and waterways",
+						"fact2": "The most common piece of waste polluted in oceans and waterways are cigarette butts",
+						"fact3": "Plastics give off harmful chemicals that affect marine life",
+						"fact4": "Over 11,000 pounds of plastic food wrappers, and over 8500 straws, and almost 3000 plastic bags were picked up in San Diego in 2022",
+						"fact5": "The Great Pacific Garbage Patch is a massive area of floating waste in the Pacific Ocean. It is estimated to be about twice the size of Texas and contains about 2 trillion pieces of trash!",
+						"fact6": "Over 700 species of marine animals, including animals that we eat, have ingested plastics, leading to serious effects such as malnutrition, internal injuries, and even death",
+						"fact7": "Plastic bags can take up to 1000 years to decompose in the ocean",
+						"fact8": "Over 8 million tons of plastic enter the ocean each year, which is equivalent to dumping one garbage truck full of plastic into the ocean everyday!",
+						"fact9": "Plastic bottles can take up to 450 years to break down",
+						"fact10": "A single ton of recycled paper and plastic can save 17 trees and 7000 gallons of water",
+						"fact11": "Over 100,00 marine mammals are killed by plastic each year!"
+					},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 979207926503204,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 385,
+						"y": 403,
+						"width": 518.5746260060791,
+						"height": 138.8454775259534,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -517,8 +592,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 516,
-						"y": 217,
+						"x": 490,
+						"y": 304,
 						"width": 331,
 						"height": 30,
 						"originX": 0,

@@ -106,7 +106,8 @@
 			"button_txt_temp_gallery",
 			"temp_right_gallery",
 			"fun_fact",
-			"3DCamera"
+			"3DCamera",
+			"gameOverbox"
 		],
 		"subfolders": []
 	},

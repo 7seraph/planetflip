@@ -1,0 +1,51 @@
+{
+	"name": "gameOverbox",
+	"plugin-id": "Sprite",
+	"sid": 359379980056397,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 626,
+						"height": 197,
+						"originX": 0.5,
+						"originY": 1.0126903553299493,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8874802,
+						"collisionPoly": {
+							"points": [
+								0.03354632587859425,
+								0.005076142131979695,
+								0.9776357827476039,
+								0.1319796954314721,
+								0.9888178913738019,
+								1,
+								0.006389776357827476,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 650346241302914,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
