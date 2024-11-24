@@ -393,7 +393,7 @@
 						{
 							"id": "set-text",
 							"objectClass": "livesDisplay",
-							"sid": 621738874563841,
+							"sid": 549386210853555,
 							"parameters": {
 								"text": "\"Lives Remaining: \" & str(lives)"
 							}
@@ -426,6 +426,12 @@
 						}
 					],
 					"sid": 749802113326158
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [],
+					"sid": 349221858757525
 				}
 			],
 			"sid": 354606418782415

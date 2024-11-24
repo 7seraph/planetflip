@@ -1,0 +1,87 @@
+{
+	"name": "fun_fact",
+	"plugin-id": "Text",
+	"sid": 160605043133150,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "fact1",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 778733437685501
+		},
+		{
+			"name": "fact2",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 998321624142924
+		},
+		{
+			"name": "fact3",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 649892902575404
+		},
+		{
+			"name": "fact4",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 152123319675089
+		},
+		{
+			"name": "fact5",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 550701281523861
+		},
+		{
+			"name": "fact6",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 884909608168936
+		},
+		{
+			"name": "fact7",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 707421509937689
+		},
+		{
+			"name": "fact8",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 523353440621136
+		},
+		{
+			"name": "fact9",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 521260281614827
+		},
+		{
+			"name": "fact10",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 349558863732012
+		},
+		{
+			"name": "fact11",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 970903306822617
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

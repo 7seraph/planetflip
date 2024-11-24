@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Camera3D",
+			"name": "3D camera",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -97,7 +104,9 @@
 			"slide_two_trail",
 			"left_temporary_sprite_gallery_button",
 			"button_txt_temp_gallery",
-			"temp_right_gallery"
+			"temp_right_gallery",
+			"fun_fact",
+			"3DCamera"
 		],
 		"subfolders": []
 	},

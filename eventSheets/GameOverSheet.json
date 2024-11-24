@@ -73,6 +73,27 @@
 				}
 			],
 			"sid": 372571367101396
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 477450148910258
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "fun_fact",
+					"sid": 555547047209229,
+					"parameters": {
+						"text": "\"fun fact:  \" & choose(fun_fact.fact1, fun_fact.fact2, fun_fact.fact3, fun_fact.fact4, fun_fact.fact5, fun_fact.fact6, fun_fact.fact7, fun_fact.fact8, fun_fact.fact9, fun_fact.fact10)"
+					}
+				}
+			],
+			"sid": 187045210661217
 		}
 	],
 	"sid": 788526136047247
