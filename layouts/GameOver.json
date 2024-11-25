@@ -116,7 +116,7 @@
 					"locked": false,
 					"world": {
 						"x": 650,
-						"y": 533.7081218274111,
+						"y": 520.7081218274111,
 						"width": 626.2945736434108,
 						"height": 174,
 						"originX": 0.5,
@@ -191,7 +191,7 @@
 					"locked": false,
 					"world": {
 						"x": 451,
-						"y": 655,
+						"y": 634,
 						"width": 213.66305522238144,
 						"height": 60.77319983497512,
 						"originX": 0.2276657060518732,
@@ -231,7 +231,7 @@
 					"locked": false,
 					"world": {
 						"x": 710,
-						"y": 654,
+						"y": 633,
 						"width": 213.66305522238144,
 						"height": 60.77319983497512,
 						"originX": 0.2276657060518732,
@@ -287,7 +287,7 @@
 					"locked": false,
 					"world": {
 						"x": 498,
-						"y": 245,
+						"y": 232,
 						"width": 273,
 						"height": 45,
 						"originX": 0,
@@ -378,7 +378,7 @@
 					"locked": false,
 					"world": {
 						"x": 426,
-						"y": 637,
+						"y": 616,
 						"width": 215,
 						"height": 30,
 						"originX": 0,
@@ -434,7 +434,7 @@
 					"locked": false,
 					"world": {
 						"x": 687,
-						"y": 637,
+						"y": 616,
 						"width": 200,
 						"height": 30,
 						"originX": 0,
@@ -502,7 +502,7 @@
 					"locked": false,
 					"world": {
 						"x": 385,
-						"y": 403,
+						"y": 390,
 						"width": 518.5746260060791,
 						"height": 138.8454775259534,
 						"originX": 0,
@@ -593,7 +593,7 @@
 					"locked": false,
 					"world": {
 						"x": 490,
-						"y": 304,
+						"y": 291,
 						"width": 331,
 						"height": 30,
 						"originX": 0,

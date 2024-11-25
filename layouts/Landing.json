@@ -473,7 +473,7 @@
 				{
 					"type": "options",
 					"properties": {
-						"text": "options",
+						"text": "tutorial",
 						"enable-bbcode": true,
 						"font": "04B_30__",
 						"size": 26,
@@ -510,12 +510,52 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 544,
+						"x": 532,
 						"y": 445,
-						"width": 202,
+						"width": 237,
 						"height": 49,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "settings",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"sid": 241817332890418,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 241817332890418,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1071,
+						"y": -10,
+						"width": 74.79823607146751,
+						"height": 79.54733042521148,
+						"originX": -1.150793650793651,
+						"originY": -0.5970149253731343,
 						"color": [
 							1,
 							1,

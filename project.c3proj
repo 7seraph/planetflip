@@ -107,7 +107,11 @@
 			"temp_right_gallery",
 			"fun_fact",
 			"3DCamera",
-			"gameOverbox"
+			"gameOverbox",
+			"settings",
+			"tutorial_fish",
+			"tutorial_trash",
+			"tutorialbg"
 		],
 		"subfolders": []
 	},
@@ -131,7 +135,8 @@
 			"Landing",
 			"MainGame",
 			"GameOver",
-			"Gallery"
+			"Gallery",
+			"settings"
 		],
 		"subfolders": []
 	},
@@ -140,7 +145,8 @@
 			"Landingsheet",
 			"MainGamesheet",
 			"GameOverSheet",
-			"GalleryGameSheet"
+			"GalleryGameSheet",
+			"settingsSheet"
 		],
 		"subfolders": []
 	},
