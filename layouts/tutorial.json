@@ -432,8 +432,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1095,
-						"y": -17,
+						"x": 1206,
+						"y": -15,
 						"width": 100,
 						"height": 754,
 						"originX": 0,
@@ -485,8 +485,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 847,
-						"y": -25,
+						"x": 769,
+						"y": -15,
 						"width": 100,
 						"height": 754,
 						"originX": 0,
@@ -520,16 +520,16 @@
 						"blend-margin-x": 0.1,
 						"blend-margin-y": 0.1
 					},
-					"uid": 54,
-					"sid": 204714059504777,
+					"uid": 60,
+					"sid": 474712045793152,
 					"tags": "",
 					"instanceVariables": {
-						"DialogueText": "Good luck!",
+						"DialogueText": "Be careful! Not all are trash!",
 						"WaitTime": 2
 					},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 204714059504777,
+						"sid": 474712045793152,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -538,8 +538,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 544,
-						"y": -31,
+						"x": 1005,
+						"y": -13,
 						"width": 100,
 						"height": 754,
 						"originX": 0,
