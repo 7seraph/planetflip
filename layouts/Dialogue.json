@@ -9,7 +9,7 @@
 				{
 					"type": "tutorial_trash",
 					"properties": {
-						"text": "Uh oh! There seems to be lots of trash in San Diego waters that are impacting our fishes!",
+						"text": "Uh oh! There seems to be lots of trash in San Diego waters that are impacting our local fishes! \n\nYour goal is to prevent them from reaching the fishes!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 19,
