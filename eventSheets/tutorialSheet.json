@@ -1,0 +1,66 @@
+{
+	"name": "tutorialSheet",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "MainGamesheet"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "trash_sprites",
+					"sid": 119557258503324,
+					"parameters": {
+						"object": "sceneTrigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "tutorial_trash",
+					"sid": 395826467859738
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 951363476452350,
+					"parameters": {
+						"object-to-create": "tutorial_trash",
+						"layer": "LayerIndex(\"Dialogue\")",
+						"x": "583",
+						"y": "189",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "tutorial_trash",
+					"sid": 328637148221186,
+					"parameters": {
+						"text": "sceneTrigger.DialogueText"
+					}
+				},
+				{
+					"id": "set-wait-time",
+					"objectClass": "tutorial_trash",
+					"sid": 899793222804000,
+					"behaviorType": "Fade",
+					"parameters": {
+						"wait-time": "sceneTrigger.WaitTime"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "sceneTrigger",
+					"sid": 199279394733417
+				}
+			],
+			"sid": 511587635738169
+		}
+	],
+	"sid": 494464030533942
+}

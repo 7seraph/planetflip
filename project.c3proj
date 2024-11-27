@@ -50,6 +50,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Tween",
 			"name": "Tween",
 			"author": "Scirra",
@@ -111,7 +118,7 @@
 			"settings",
 			"tutorial_fish",
 			"tutorial_trash",
-			"tutorialbg"
+			"sceneTrigger"
 		],
 		"subfolders": []
 	},
@@ -136,7 +143,8 @@
 			"MainGame",
 			"GameOver",
 			"Gallery",
-			"settings"
+			"tutorial",
+			"Dialogue"
 		],
 		"subfolders": []
 	},
@@ -146,7 +154,7 @@
 			"MainGamesheet",
 			"GameOverSheet",
 			"GalleryGameSheet",
-			"settingsSheet"
+			"tutorialSheet"
 		],
 		"subfolders": []
 	},

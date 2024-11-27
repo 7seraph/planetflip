@@ -1,0 +1,37 @@
+{
+	"name": "sceneTrigger",
+	"plugin-id": "TiledBg",
+	"sid": 214377616118331,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "DialogueText",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 924344829684634
+		},
+		{
+			"name": "WaitTime",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 821422814934128
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 1449126,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}
