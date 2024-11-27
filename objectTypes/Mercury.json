@@ -1,0 +1,59 @@
+{
+	"name": "Mercury",
+	"plugin-id": "Sprite",
+	"sid": 334878340396549,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 160,
+						"height": 144,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3273101,
+						"collisionPoly": {
+							"points": [
+								0.425,
+								0.2847222222222222,
+								0.675,
+								0.3611111111111111,
+								0.675,
+								0.4027777777777778,
+								0.65625,
+								0.5555555555555556,
+								0.4375,
+								0.7083333333333334,
+								0.3625,
+								0.6805555555555556,
+								0.33125,
+								0.5347222222222222,
+								0.33125,
+								0.3333333333333333
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 317574384292036,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

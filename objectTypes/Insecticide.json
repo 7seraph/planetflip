@@ -1,0 +1,53 @@
+{
+	"name": "Insecticide",
+	"plugin-id": "Sprite",
+	"sid": 216882641992540,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 160,
+						"height": 144,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5224414,
+						"collisionPoly": {
+							"points": [
+								0.43125,
+								0.3263888888888889,
+								0.475,
+								0.3263888888888889,
+								0.61875,
+								0.3611111111111111,
+								0.58125,
+								0.6666666666666666,
+								0.39375,
+								0.6319444444444444
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 880697206505885,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

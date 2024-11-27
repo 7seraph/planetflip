@@ -118,7 +118,11 @@
 			"settings",
 			"tutorial_fish",
 			"tutorial_trash",
-			"sceneTrigger"
+			"sceneTrigger",
+			"Sewage",
+			"Insecticide",
+			"Mercury",
+			"Fertilizer"
 		],
 		"subfolders": []
 	},
