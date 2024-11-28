@@ -2,8 +2,48 @@
 	"name": "tutorialSheet",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "numClicks",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 994714019916772
+		},
+		{
 			"eventType": "include",
 			"includeSheet": "MainGamesheet"
+		},
+		{
+			"eventType": "comment",
+			"text": "Initialization"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 728133214477349
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 950005198623506,
+					"parameters": {
+						"variable": "numClicks",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 844989491126516
+		},
+		{
+			"eventType": "comment",
+			"text": "Trigger text"
 		},
 		{
 			"eventType": "block",
@@ -60,6 +100,128 @@
 				}
 			],
 			"sid": 511587635738169
+		},
+		{
+			"eventType": "comment",
+			"text": "End tutorial after 5 clicks"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 182292963836853,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "trash_sprites"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 590615778191003,
+					"parameters": {
+						"variable": "numClicks",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 296646028937123,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 378241390428032,
+							"parameters": {
+								"first-value": "numClicks",
+								"comparison": 0,
+								"second-value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 857715934628524,
+							"parameters": {
+								"object-to-create": "tutorial_trash",
+								"layer": "LayerIndex(\"Dialogue\")",
+								"x": "583",
+								"y": "189",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "tutorial_trash",
+							"sid": 250625602091693,
+							"parameters": {
+								"text": "\"Good Job! Now you are ready to protect our ocean!\""
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "fadetoBlack",
+							"sid": 312321326336953,
+							"parameters": {
+								"opacity": "0"
+							}
+						},
+						{
+							"id": "tween-one-property",
+							"objectClass": "fadetoBlack",
+							"sid": 305180792164448,
+							"behaviorType": "Tween",
+							"parameters": {
+								"tags": "\"fadeout\"",
+								"property": "offsetOpacity",
+								"end-value": "100",
+								"time": "3",
+								"ease": "default",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						}
+					],
+					"sid": 614848026458417
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tweens-finished",
+					"objectClass": "fadetoBlack",
+					"sid": 677171131091658,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fadeout\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 532416936907728,
+					"parameters": {
+						"layout": "Landing"
+					}
+				}
+			],
+			"sid": 238255906415188
 		}
 	],
 	"sid": 494464030533942

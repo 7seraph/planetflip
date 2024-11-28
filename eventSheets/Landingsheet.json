@@ -2,6 +2,35 @@
 	"name": "Landingsheet",
 	"events": [
 		{
+			"eventType": "comment",
+			"text": "Initialization"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 435296738114995
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "fadetoBlack",
+					"sid": 638900759411917,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 458468508936863
+		},
+		{
+			"eventType": "comment",
+			"text": "Navigation"
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -17,15 +46,49 @@
 			],
 			"actions": [
 				{
+					"id": "tween-one-property",
+					"objectClass": "fadetoBlack",
+					"sid": 521349929383739,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fadeout\"",
+						"property": "offsetOpacity",
+						"end-value": "100",
+						"time": "1.5",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				}
+			],
+			"sid": 675875484341640
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tweens-finished",
+					"objectClass": "fadetoBlack",
+					"sid": 767888856494472,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fadeout\""
+					}
+				}
+			],
+			"actions": [
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 600280604678218,
+					"sid": 157520949476896,
 					"parameters": {
 						"layout": "MainGame"
 					}
 				}
 			],
-			"sid": 675875484341640
+			"sid": 755467729841973
 		},
 		{
 			"eventType": "block",
@@ -43,15 +106,49 @@
 			],
 			"actions": [
 				{
+					"id": "tween-one-property",
+					"objectClass": "fadetoBlack",
+					"sid": 668287906210541,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fadeout\"",
+						"property": "offsetOpacity",
+						"end-value": "100",
+						"time": "1.5",
+						"ease": "default",
+						"destroy-on-complete": "no",
+						"loop": "no",
+						"ping-pong": "no",
+						"repeat-count": "1"
+					}
+				}
+			],
+			"sid": 942242693715503
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tweens-finished",
+					"objectClass": "fadetoBlack",
+					"sid": 253946477529840,
+					"behaviorType": "Tween",
+					"parameters": {
+						"tags": "\"fadeout\""
+					}
+				}
+			],
+			"actions": [
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 552105034750246,
+					"sid": 127362397873536,
 					"parameters": {
 						"layout": "Gallery"
 					}
 				}
 			],
-			"sid": 942242693715503
+			"sid": 767746664454537
 		},
 		{
 			"eventType": "block",

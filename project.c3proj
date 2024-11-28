@@ -122,7 +122,8 @@
 			"Sewage",
 			"Insecticide",
 			"Mercury",
-			"Fertilizer"
+			"Fertilizer",
+			"fadetoBlack"
 		],
 		"subfolders": []
 	},
