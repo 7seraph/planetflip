@@ -8,13 +8,6 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Camera3D",
-			"name": "3D camera",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -107,13 +100,7 @@
 			"title_background_gallery",
 			"button_slides",
 			"button_slide_two",
-			"trail_slide",
-			"slide_two_trail",
-			"left_temporary_sprite_gallery_button",
-			"button_txt_temp_gallery",
-			"temp_right_gallery",
 			"fun_fact",
-			"3DCamera",
 			"gameOverbox",
 			"settings",
 			"tutorial_fish",
@@ -128,14 +115,7 @@
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [
-		{
-			"members": [
-				"slide_two_trail",
-				"trail_slide"
-			]
-		}
-	],
+	"containers": [],
 	"families": {
 		"items": [
 			"trash_sprites"
