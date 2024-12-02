@@ -190,7 +190,7 @@
 					"locked": false,
 					"world": {
 						"x": 638,
-						"y": 374,
+						"y": 378,
 						"width": 932,
 						"height": 411,
 						"originX": 0.5,
@@ -217,7 +217,9 @@
 					"uid": 38,
 					"sid": 928394317450815,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Variable1": true
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 928394317450815,
@@ -257,7 +259,9 @@
 					"uid": 39,
 					"sid": 650947579106774,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"varitwo": false
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 650947579106774,
@@ -271,7 +275,7 @@
 					"world": {
 						"x": 1185.665080570765,
 						"y": 372.4694534067366,
-						"width": 95.76923529055443,
+						"width": 95.76923529055442,
 						"height": 77.9229429449656,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -310,7 +314,7 @@
 					"locked": false,
 					"world": {
 						"x": 636,
-						"y": 375,
+						"y": 380,
 						"width": 932,
 						"height": 411,
 						"originX": 0.5,
