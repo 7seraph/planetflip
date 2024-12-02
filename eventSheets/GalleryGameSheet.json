@@ -1,5 +1,75 @@
 {
 	"name": "GalleryGameSheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "current_slide",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 712319389439779
+		},
+		{
+			"eventType": "variable",
+			"name": "total_slides",
+			"type": "number",
+			"initialValue": "3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 499574527640740
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-visible",
+					"objectClass": "slide_one",
+					"sid": 918862387932250
+				}
+			],
+			"actions": [],
+			"sid": 285498385934988
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 899678073584528,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "slide_prev_button"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 120692800843001,
+					"parameters": {
+						"variable": "total_slides",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 596147141391896,
+					"parameters": {
+						"variable": "current_slide",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 744091513361970
+		}
+	],
 	"sid": 109179298977146
 }

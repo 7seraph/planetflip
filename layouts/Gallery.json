@@ -269,10 +269,50 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1185.5716067519359,
-						"y": 374.13071798922573,
-						"width": 95.94213704608501,
-						"height": 75.24547210994388,
+						"x": 1185.665080570765,
+						"y": 372.4694534067366,
+						"width": 95.76923529055443,
+						"height": 77.9229429449656,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "slide_two_gallery_2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 40,
+					"sid": 535728655212703,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 535728655212703,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 636,
+						"y": 375,
+						"width": 932,
+						"height": 411,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
