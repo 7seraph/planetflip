@@ -471,7 +471,7 @@
 					}
 				},
 				{
-					"type": "options",
+					"type": "tutorial",
 					"properties": {
 						"text": "tutorial",
 						"enable-bbcode": true,
@@ -631,8 +631,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 650,
-						"y": 347,
+						"x": 647,
+						"y": 356,
 						"width": 3003,
 						"height": 1909,
 						"originX": 0.5,

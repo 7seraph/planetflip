@@ -121,34 +121,17 @@
 						"ping-pong": "no",
 						"repeat-count": "1"
 					}
-				}
-			],
-			"sid": 942242693715503
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-tweens-finished",
-					"objectClass": "fadetoBlack",
-					"sid": 253946477529840,
-					"behaviorType": "Tween",
-					"parameters": {
-						"tags": "\"fadeout\""
-					}
-				}
-			],
-			"actions": [
+				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 127362397873536,
+					"sid": 263171983997429,
 					"parameters": {
 						"layout": "Gallery"
 					}
 				}
 			],
-			"sid": 767746664454537
+			"sid": 942242693715503
 		},
 		{
 			"eventType": "block",
@@ -160,24 +143,7 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "options"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 256171203628990
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 286947524546565,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "settings"
+						"object-clicked": "tutorial"
 					}
 				}
 			],
@@ -185,13 +151,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 547769197621516,
+					"sid": 387752539277141,
 					"parameters": {
 						"layout": "tutorial"
 					}
 				}
 			],
-			"sid": 667996073856222
+			"sid": 256171203628990
 		}
 	],
 	"sid": 186823678804632

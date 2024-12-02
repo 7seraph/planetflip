@@ -76,7 +76,7 @@
 			"Play",
 			"Largemouth_Bass",
 			"gallery",
-			"options",
+			"tutorial",
 			"bottle_2",
 			"paper_bag",
 			"glass_bottle",
@@ -113,7 +113,15 @@
 			"slide_two_gallery_",
 			"slide_prev_button",
 			"slide_button_bef",
-			"slide_two_gallery_2"
+			"slide_two_gallery_2",
+			"buttonLeft",
+			"buttonRight",
+			"Species",
+			"Pollutants",
+			"Sprite",
+			"Sprite2",
+			"Sprite3",
+			"main_menu"
 		],
 		"subfolders": []
 	},

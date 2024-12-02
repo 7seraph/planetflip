@@ -1,7 +1,7 @@
 {
-	"name": "slide_one",
+	"name": "Sprite",
 	"plugin-id": "Sprite",
-	"sid": 403568952114788,
+	"sid": 839851787572437,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,33 +11,21 @@
 			{
 				"frames": [
 					{
-						"width": 500,
-						"height": 300,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 2832354,
-						"collisionPoly": {
-							"points": [
-								0.01494868362338242,
-								0,
-								1,
-								0.02707070707070707,
-								0.9850513163766176,
-								1,
-								0,
-								0.972929292929293
-							]
-						},
+						"imageSpriteId": 4002221,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 334285553863237,
+				"sid": 893136717004805,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

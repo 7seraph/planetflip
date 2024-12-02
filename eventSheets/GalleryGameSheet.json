@@ -15,6 +15,28 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 286132429173712
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 225706941052979,
+					"parameters": {
+						"variable": "currentslideindex",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 145589318100137
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 731758022091867,
