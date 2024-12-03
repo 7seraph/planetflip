@@ -190,6 +190,14 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "PixelifySans-Regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 418606734548728,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
