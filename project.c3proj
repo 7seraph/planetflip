@@ -121,7 +121,9 @@
 			"Sprite",
 			"Sprite2",
 			"Sprite3",
-			"main_menu"
+			"main_menu",
+			"TiledBackground5",
+			"TiledBackground6"
 		],
 		"subfolders": []
 	},
