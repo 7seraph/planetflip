@@ -21,6 +21,10 @@
 		"bottle_2",
 		"bottle",
 		"glass_bottle",
-		"paper_bag"
+		"paper_bag",
+		"Sewage",
+		"Mercury",
+		"Fertilizer",
+		"Insecticide"
 	]
 }

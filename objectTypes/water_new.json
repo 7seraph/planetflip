@@ -1,7 +1,7 @@
 {
-	"name": "TiledBackground6",
+	"name": "water_new",
 	"plugin-id": "TiledBg",
-	"sid": 302072736687288,
+	"sid": 345315543258923,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -15,7 +15,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 2119065,
+		"imageSpriteId": 4552835,
 		"useCollisionPoly": true,
 		"tag": ""
 	}
