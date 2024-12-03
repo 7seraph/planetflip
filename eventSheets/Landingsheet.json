@@ -125,7 +125,7 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 263171983997429,
+					"sid": 216646815604732,
 					"parameters": {
 						"layout": "Gallery"
 					}

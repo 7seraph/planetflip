@@ -138,9 +138,9 @@
 			"Landing",
 			"MainGame",
 			"GameOver",
-			"Gallery",
 			"tutorial",
-			"Dialogue"
+			"Dialogue",
+			"Gallery"
 		],
 		"subfolders": []
 	},
@@ -149,8 +149,8 @@
 			"Landingsheet",
 			"MainGamesheet",
 			"GameOverSheet",
-			"GalleryGameSheet",
-			"tutorialSheet"
+			"tutorialSheet",
+			"GallerySheet"
 		],
 		"subfolders": []
 	},

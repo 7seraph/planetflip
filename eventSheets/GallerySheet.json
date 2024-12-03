@@ -1,0 +1,139 @@
+{
+	"name": "GallerySheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "currIdx",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 925193501519387
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 181414676378696
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "slide_two_gallery_2",
+					"sid": 677356574162669,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "slide_two_gallery_",
+					"sid": 128762766277557,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "slide_one",
+					"sid": 699942017949250,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 361829850348913,
+					"parameters": {
+						"variable": "currIdx",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 243551822496450
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 388504579115653,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "slide_prev_button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 653739734241273,
+					"parameters": {
+						"variable": "currIdx",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "slide_two_gallery_2",
+					"sid": 568547040107502,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "slide_one",
+					"sid": 859186137656413,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "slide_two_gallery_",
+					"sid": 152177354867654,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 721399138652831
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 322485515482940,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "main_menu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 983483975921628,
+					"parameters": {
+						"layout": "Landing"
+					}
+				}
+			],
+			"sid": 603232751186949
+		}
+	],
+	"sid": 396018014058448
+}
