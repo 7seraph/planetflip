@@ -1,7 +1,7 @@
 {
-	"name": "Sky",
+	"name": "TiledBackground5",
 	"plugin-id": "TiledBg",
-	"sid": 292624842180677,
+	"sid": 327062303836586,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -15,7 +15,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 3650111,
+		"imageSpriteId": 5995432,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

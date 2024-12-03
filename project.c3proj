@@ -122,8 +122,8 @@
 			"Sprite2",
 			"Sprite3",
 			"main_menu",
-			"Sky",
-			"water_new"
+			"TiledBackground5",
+			"TiledBackground6"
 		],
 		"subfolders": []
 	},
