@@ -1,15 +1,15 @@
 {
-	"name": "slide_button_bef",
+	"name": "slide_next_button",
 	"plugin-id": "Sprite",
-	"sid": 918697376744148,
+	"sid": 451965494678643,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
-			"name": "varitwo",
+			"name": "Variable1",
 			"type": "boolean",
 			"desc": "",
 			"show": true,
-			"sid": 328410094144916
+			"sid": 736721923678366
 		}
 	],
 	"behaviorTypes": [],
@@ -19,15 +19,15 @@
 			{
 				"frames": [
 					{
-						"width": 95,
-						"height": 75,
+						"width": 100,
+						"height": 80,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 4949109,
+						"imageSpriteId": 6350233,
 						"collisionPoly": {
 							"points": [
 								0.09375,
@@ -53,7 +53,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 246697559998031,
+				"sid": 927629719154089,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

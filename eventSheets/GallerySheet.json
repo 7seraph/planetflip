@@ -3,110 +3,221 @@
 	"events": [
 		{
 			"eventType": "variable",
-			"name": "currIdx",
+			"name": "pos_right",
+			"type": "number",
+			"initialValue": "739",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 144584757695843
+		},
+		{
+			"eventType": "variable",
+			"name": "pos_center",
+			"type": "number",
+			"initialValue": "639",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 173209334287208
+		},
+		{
+			"eventType": "variable",
+			"name": "pos_left",
+			"type": "number",
+			"initialValue": "539",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 115073541361507
+		},
+		{
+			"eventType": "variable",
+			"name": "Zelevation_back",
 			"type": "number",
 			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 943860651653571
+		},
+		{
+			"eventType": "variable",
+			"name": "Zelevation_front",
+			"type": "number",
+			"initialValue": "5",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 495338107641689
+		},
+		{
+			"eventType": "variable",
+			"name": "moveSpeed",
+			"type": "number",
+			"initialValue": "0.3",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 925193501519387
 		},
 		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 181414676378696
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "slide_two_gallery_2",
-					"sid": 677356574162669,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "slide_two_gallery_",
-					"sid": 128762766277557,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "slide_one",
-					"sid": 699942017949250,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 361829850348913,
-					"parameters": {
-						"variable": "currIdx",
-						"value": "0"
-					}
-				}
-			],
-			"sid": 243551822496450
+			"eventType": "variable",
+			"name": "isMoving",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 123147171877382
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "setup",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 388504579115653,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "slide_prev_button"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 540329890682534
+						}
+					],
+					"actions": [],
+					"sid": 778139881145784,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 397524711666886,
+									"parameters": {
+										"name": "\"\"",
+										"start-index": "1",
+										"end-index": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 534345835899026,
+									"parameters": {
+										"object-to-create": "gallery_slides",
+										"layer": "\"menu_boxes\"",
+										"x": "pos_center",
+										"y": "376",
+										"create-hierarchy": false,
+										"template-name": "\"\""
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "gallery_slides",
+									"sid": 178275051682771,
+									"parameters": {
+										"frame-number": "loopindex"
+									}
+								}
+							],
+							"sid": 976293650447110,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-animation-frame",
+											"objectClass": "gallery_slides",
+											"sid": 164851871072349,
+											"parameters": {
+												"comparison": 0,
+												"number": "1"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-x",
+											"objectClass": "gallery_slides",
+											"sid": 350574063016225,
+											"parameters": {
+												"x": "pos_center"
+											}
+										},
+										{
+											"id": "set-z-elevation",
+											"objectClass": "gallery_slides",
+											"sid": 758872795740926,
+											"parameters": {
+												"z": "Zelevation_front"
+											}
+										}
+									],
+									"sid": 370984855258295
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-animation-frame",
+											"objectClass": "gallery_slides",
+											"sid": 451707285370655,
+											"parameters": {
+												"comparison": 0,
+												"number": "2"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-x",
+											"objectClass": "gallery_slides",
+											"sid": 738091753402882,
+											"parameters": {
+												"x": "pos_left"
+											}
+										}
+									],
+									"sid": 144754165875710
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-animation-frame",
+											"objectClass": "gallery_slides",
+											"sid": 822296166377810,
+											"parameters": {
+												"comparison": 0,
+												"number": "3"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-x",
+											"objectClass": "gallery_slides",
+											"sid": 714912200177258,
+											"parameters": {
+												"x": "pos_right"
+											}
+										}
+									],
+									"sid": 337765552768041
+								}
+							]
+						}
+					]
 				}
 			],
-			"actions": [
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 653739734241273,
-					"parameters": {
-						"variable": "currIdx",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "slide_two_gallery_2",
-					"sid": 568547040107502,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "slide_one",
-					"sid": 859186137656413,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "slide_two_gallery_",
-					"sid": 152177354867654,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				}
-			],
-			"sid": 721399138652831
+			"sid": 268889430646429
 		},
 		{
 			"eventType": "block",
@@ -133,6 +244,472 @@
 				}
 			],
 			"sid": 603232751186949
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "moving carousel",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 910386173122374,
+							"parameters": {
+								"variable": "isMoving"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [],
+					"sid": 457600984525723,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-object-clicked",
+									"objectClass": "Mouse",
+									"sid": 266930843144387,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked",
+										"object-clicked": "slide_next_button"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 119908055777631,
+									"parameters": {
+										"variable": "isMoving",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 693277780027841,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-x",
+											"objectClass": "gallery_slides",
+											"sid": 884295805928661,
+											"parameters": {
+												"comparison": 0,
+												"x-co-ordinate": "pos_center"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 802313646811003,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "trigger-once-while-true",
+													"objectClass": "System",
+													"sid": 299778618974416
+												}
+											],
+											"actions": [
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 280947384135828,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetX",
+														"end-value": "pos_right",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												},
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 619566422271571,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetZElevation",
+														"end-value": "Zelevation_back",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												}
+											],
+											"sid": 717371199232772
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-x",
+											"objectClass": "gallery_slides",
+											"sid": 547116295665589,
+											"parameters": {
+												"comparison": 0,
+												"x-co-ordinate": "pos_left"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 640453328298098,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "trigger-once-while-true",
+													"objectClass": "System",
+													"sid": 551602572387866
+												}
+											],
+											"actions": [
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 762484538487510,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetX",
+														"end-value": "pos_center",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												},
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 963811946131565,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetZElevation",
+														"end-value": "Zelevation_front",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												}
+											],
+											"sid": 634449649720091
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-x",
+											"objectClass": "gallery_slides",
+											"sid": 539622227742069,
+											"parameters": {
+												"comparison": 0,
+												"x-co-ordinate": "pos_right"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 207568403819705,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "trigger-once-while-true",
+													"objectClass": "System",
+													"sid": 560535643605612
+												}
+											],
+											"actions": [
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 453781865790687,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetX",
+														"end-value": "pos_left",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												}
+											],
+											"sid": 744968574960120
+										}
+									]
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-object-clicked",
+									"objectClass": "Mouse",
+									"sid": 339271631221081,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked",
+										"object-clicked": "slide_before_button"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 450239209660335,
+									"parameters": {
+										"variable": "isMoving",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 699201591318327,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-x",
+											"objectClass": "gallery_slides",
+											"sid": 816162256753172,
+											"parameters": {
+												"comparison": 0,
+												"x-co-ordinate": "pos_center"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 376863557854598,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "trigger-once-while-true",
+													"objectClass": "System",
+													"sid": 531033714767923
+												}
+											],
+											"actions": [
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 236292515189790,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetX",
+														"end-value": "pos_left",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												},
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 733288728633162,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetZElevation",
+														"end-value": "Zelevation_back",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												}
+											],
+											"sid": 922107501524418
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-x",
+											"objectClass": "gallery_slides",
+											"sid": 344586653732402,
+											"parameters": {
+												"comparison": 0,
+												"x-co-ordinate": "pos_left"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 948554618982251,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "trigger-once-while-true",
+													"objectClass": "System",
+													"sid": 663280754330697
+												}
+											],
+											"actions": [
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 521465119488966,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetX",
+														"end-value": "pos_right",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												}
+											],
+											"sid": 477594248641725
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-x",
+											"objectClass": "gallery_slides",
+											"sid": 566298555775431,
+											"parameters": {
+												"comparison": 0,
+												"x-co-ordinate": "pos_right"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 463386239856457,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "trigger-once-while-true",
+													"objectClass": "System",
+													"sid": 398156829360543
+												}
+											],
+											"actions": [
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 159213951886866,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetX",
+														"end-value": "pos_center",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												},
+												{
+													"id": "tween-one-property",
+													"objectClass": "gallery_slides",
+													"sid": 410524993000037,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"\"",
+														"property": "offsetZElevation",
+														"end-value": "Zelevation_front",
+														"time": "moveSpeed",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no",
+														"repeat-count": "1"
+													}
+												}
+											],
+											"sid": 823483166120844
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-any-playing",
+							"objectClass": "gallery_slides",
+							"sid": 642875991675562,
+							"behaviorType": "Tween",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 442614823154535,
+							"parameters": {
+								"variable": "isMoving",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 963443092993330
+				}
+			],
+			"sid": 671281250454551
 		}
 	],
 	"sid": 396018014058448

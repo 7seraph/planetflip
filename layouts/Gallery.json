@@ -148,7 +148,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "slide_button_bef",
+					"type": "slide_before_button",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -190,7 +190,7 @@
 					}
 				},
 				{
-					"type": "slide_prev_button",
+					"type": "slide_next_button",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -267,7 +267,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "slide_one",
+					"type": "gallery_slides",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -279,7 +279,13 @@
 					"sid": 268426138281351,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Tween": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 268426138281351,
 						"expanded": true,
@@ -307,47 +313,7 @@
 					}
 				},
 				{
-					"type": "slide_two_gallery_",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 72,
-					"sid": 187763432110253,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 187763432110253,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 639,
-						"y": 376,
-						"width": 932,
-						"height": 411,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "slide_two_gallery_2",
+					"type": "bass_gallery",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -388,6 +354,40 @@
 				}
 			],
 			"sid": 780340679243581,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "menu_boxes",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [],
+			"sid": 359430071712232,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
