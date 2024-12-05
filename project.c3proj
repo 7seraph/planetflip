@@ -146,7 +146,8 @@
 			"TiledBackground6",
 			"TiledBackground7",
 			"select",
-			"current_sprite"
+			"current_sprite",
+			"TiledBackground8"
 		],
 		"subfolders": []
 	},
