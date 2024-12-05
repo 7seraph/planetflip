@@ -179,7 +179,7 @@
 				{
 					"type": "Title",
 					"properties": {
-						"text": "Rainbow Fish",
+						"text": "Eco Defender",
 						"enable-bbcode": true,
 						"font": "04B_30__",
 						"size": 56,
@@ -270,7 +270,7 @@
 				{
 					"type": "Title",
 					"properties": {
-						"text": "Rainbow Fish",
+						"text": "Eco Defender",
 						"enable-bbcode": true,
 						"font": "04B_30__",
 						"size": 55,
@@ -307,9 +307,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 275,
-						"y": 43,
-						"width": 707,
+						"x": 274,
+						"y": 45,
+						"width": 773,
 						"height": 156,
 						"originX": 0,
 						"originY": 0,
