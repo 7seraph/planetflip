@@ -1,21 +1,10 @@
 {
-	"name": "water",
+	"name": "TiledBackground7",
 	"plugin-id": "TiledBg",
-	"sid": 190850629712355,
+	"sid": 178302189175221,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "wrap",
-			"name": "Wrap",
-			"sid": 177179750574420
-		},
-		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 301782040333384
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
 		"width": 1280,
@@ -26,7 +15,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 612345,
+		"imageSpriteId": 5376710,
 		"useCollisionPoly": true,
 		"tag": ""
 	}
