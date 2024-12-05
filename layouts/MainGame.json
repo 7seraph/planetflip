@@ -40,10 +40,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 0,
-						"y": 3,
-						"width": 2560,
-						"height": 112,
+						"x": -67,
+						"y": -25,
+						"width": 2667,
+						"height": 140,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -90,10 +90,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2560,
-						"y": 720,
-						"width": 2560,
-						"height": 46,
+						"x": 2595,
+						"y": 883,
+						"width": 2661,
+						"height": 209,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -159,56 +159,6 @@
 							1
 						],
 						"angle": 0.0015190189021181966,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TiledBackground4",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0,
-						"enable-tile-randomization": false,
-						"x-random": 1,
-						"y-random": 1,
-						"angle-random": 1,
-						"blend-margin-x": 0.1,
-						"blend-margin-y": 0.1
-					},
-					"uid": 32,
-					"sid": 860036289867701,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 860036289867701,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 5,
-						"y": 713,
-						"width": 1268.4009370114018,
-						"height": 723.4009370114017,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				}
@@ -298,9 +248,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 640,
+						"x": 607,
 						"y": 393.5,
-						"width": 1280,
+						"width": 1346,
 						"height": 563,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -365,9 +315,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1920,
+						"x": 1941,
 						"y": 393.5,
-						"width": 1280,
+						"width": 1322,
 						"height": 563,
 						"originX": 0.5,
 						"originY": 0.5,

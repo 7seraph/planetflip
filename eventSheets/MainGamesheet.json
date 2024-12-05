@@ -122,10 +122,10 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 963169566620829,
+							"sid": 533017898168598,
 							"parameters": {
 								"variable": "trashSpeed",
-								"value": "-200"
+								"value": "-100"
 							}
 						},
 						{
