@@ -5,7 +5,16 @@
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "radialblur",
+			"name": "RadialBlur"
+		},
+		{
+			"effectId": "oilpainting",
+			"name": "OilPainting"
+		}
+	],
 	"image": {
 		"width": 1280,
 		"height": 720,
@@ -15,7 +24,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 1584022,
+		"imageSpriteId": 2152468,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

@@ -63,6 +63,16 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "spriteNum",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 753260881699659
+		},
+		{
+			"eventType": "variable",
 			"name": "randomize",
 			"type": "number",
 			"initialValue": "0",
@@ -136,6 +146,14 @@
 								"variable": "spawnSpeed",
 								"value": "1.5"
 							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "current_sprite",
+							"sid": 907079381283761,
+							"parameters": {
+								"frame-number": "spriteNum"
+							}
 						}
 					],
 					"sid": 425893745713540
@@ -170,12 +188,12 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 718485786950930,
+							"sid": 844409267115732,
 							"parameters": {
 								"object-to-create": "trash_sprites",
 								"layer": "1",
 								"x": "LayoutWidth",
-								"y": "random(80, 370)",
+								"y": "random(200, 550)",
 								"create-hierarchy": false,
 								"template-name": "\"\""
 							}
@@ -369,9 +387,9 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "trash_sprites",
-							"sid": 171649464121630,
+							"sid": 773160508019867,
 							"parameters": {
-								"object": "Largemouth_Bass"
+								"object": "current_sprite"
 							}
 						}
 					],

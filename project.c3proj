@@ -50,6 +50,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Tween",
 			"name": "Tween",
 			"author": "Scirra",
@@ -59,6 +66,20 @@
 			"type": "behavior",
 			"id": "wrap",
 			"name": "Wrap",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "oilpainting",
+			"name": "Oil painting",
+			"author": "Brad Larson",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "radialblur",
+			"name": "Radial blur",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -123,7 +144,9 @@
 			"main_menu",
 			"TiledBackground5",
 			"TiledBackground6",
-			"TiledBackground7"
+			"TiledBackground7",
+			"select",
+			"current_sprite"
 		],
 		"subfolders": []
 	},
