@@ -37,6 +37,15 @@
 						"variable": "numClicks",
 						"value": "0"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 121730524388486,
+					"parameters": {
+						"variable": "trashSpeed",
+						"value": "-125"
+					}
 				}
 			],
 			"sid": 844989491126516
@@ -163,9 +172,9 @@
 						{
 							"id": "set-text",
 							"objectClass": "tutorial_trash",
-							"sid": 250625602091693,
+							"sid": 738348837529524,
 							"parameters": {
-								"text": "\"Good Job! Now you are ready to protect our ocean!\""
+								"text": "\"Good Job! Next up you can select your fish in the gallery!\""
 							}
 						},
 						{

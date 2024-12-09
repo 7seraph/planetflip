@@ -39,7 +39,7 @@
 						"Fade": {
 							"properties": {
 								"fade-in-time": 0.5,
-								"wait-time": 2,
+								"wait-time": 5,
 								"fade-out-time": 0.5,
 								"destroy": true,
 								"enabled": true,

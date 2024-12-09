@@ -310,8 +310,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1240,
-						"y": -17,
+						"x": 1193,
+						"y": -22,
 						"width": 100,
 						"height": 754,
 						"originX": 0,
@@ -350,7 +350,7 @@
 					"tags": "",
 					"instanceVariables": {
 						"DialogueText": "Click on them to put them in the bin!",
-						"WaitTime": 2
+						"WaitTime": 5
 					},
 					"behaviors": {},
 					"instanceFolderItem": {
@@ -363,60 +363,7 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 578,
-						"y": -26,
-						"width": 100,
-						"height": 754,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							0.25
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "sceneTrigger",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0,
-						"enable-tile-randomization": false,
-						"x-random": 1,
-						"y-random": 1,
-						"angle-random": 1,
-						"blend-margin-x": 0.1,
-						"blend-margin-y": 0.1
-					},
-					"uid": 60,
-					"sid": 474712045793152,
-					"tags": "",
-					"instanceVariables": {
-						"DialogueText": "Be careful! Not all are trash!",
-						"WaitTime": 2
-					},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 474712045793152,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 928,
+						"x": 946,
 						"y": -22,
 						"width": 100,
 						"height": 754,
@@ -456,8 +403,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 640.233905,
-						"y": 574.907631,
+						"x": 633,
+						"y": 574,
 						"width": 196.465404,
 						"height": 282.28125,
 						"originX": 0.5,
