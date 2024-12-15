@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 41600,
+	"savedWithRelease": 41602,
 	"name": "planetflip",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -147,7 +147,8 @@
 			"TiledBackground7",
 			"select",
 			"current_sprite",
-			"TiledBackground8"
+			"TiledBackground8",
+			"friendly_anchovy"
 		],
 		"subfolders": []
 	},
