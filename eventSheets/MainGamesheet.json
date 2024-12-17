@@ -173,6 +173,18 @@
 							"parameters": {
 								"frame-number": "spriteNum"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 388801226457287,
+							"parameters": {
+								"audio-file": "very-lush-and-swag-loop-74140",
+								"loop": "looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 425893745713540

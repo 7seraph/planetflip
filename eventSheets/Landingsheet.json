@@ -22,6 +22,18 @@
 					"parameters": {
 						"opacity": "0"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 646617265380428,
+					"parameters": {
+						"audio-file": "8bittownthemesong-59266",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"landing\""
+					}
 				}
 			],
 			"sid": 458468508936863
@@ -60,6 +72,26 @@
 						"loop": "no",
 						"ping-pong": "no",
 						"repeat-count": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 589589128565072,
+					"parameters": {
+						"audio-file": "retro-click-236673",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 785731363720365,
+					"parameters": {
+						"tag": "\"landing\""
 					}
 				}
 			],
@@ -123,6 +155,18 @@
 					}
 				},
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 470407552745935,
+					"parameters": {
+						"audio-file": "retro-click-236673",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 216646815604732,
@@ -148,6 +192,18 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 994322957866514,
+					"parameters": {
+						"audio-file": "retro-click-236673",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",

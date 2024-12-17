@@ -245,6 +245,18 @@
 			],
 			"actions": [
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 783925488227678,
+					"parameters": {
+						"audio-file": "retro-click-236673",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 983483975921628,
@@ -300,6 +312,18 @@
 									"parameters": {
 										"variable": "isMoving",
 										"value": "true"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 740990001981549,
+									"parameters": {
+										"audio-file": "retro-click-236673",
+										"loop": "not-looping",
+										"volume": "0",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -507,6 +531,18 @@
 									"parameters": {
 										"variable": "isMoving",
 										"value": "true"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 574601554847935,
+									"parameters": {
+										"audio-file": "retro-click-236673",
+										"loop": "not-looping",
+										"volume": "0",
+										"stereo-pan": "0",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -752,6 +788,18 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 286323598367542,
+							"parameters": {
+								"audio-file": "retro-click-236673",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
