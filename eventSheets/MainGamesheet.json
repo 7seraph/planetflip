@@ -82,6 +82,16 @@
 			"sid": 402110122923746
 		},
 		{
+			"eventType": "variable",
+			"name": "friendlySpawn",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 878070401082726
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Initialize",
@@ -148,6 +158,15 @@
 							}
 						},
 						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 177325212489702,
+							"parameters": {
+								"variable": "friendlySpawn",
+								"value": "5"
+							}
+						},
+						{
 							"id": "set-animation-frame",
 							"objectClass": "current_sprite",
 							"sid": 907079381283761,
@@ -164,7 +183,7 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Spawner",
+			"title": "Trash Spawner",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -275,6 +294,158 @@
 		{
 			"eventType": "group",
 			"disabled": false,
+			"title": "Friendly Spawn",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 155174592100763,
+							"parameters": {
+								"interval-seconds": "friendlySpawn"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 437423735525795,
+							"parameters": {
+								"object-to-create": "friendly_anchovy",
+								"layer": "1",
+								"x": "LayoutWidth",
+								"y": "random(200, 550)",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 750438428009742
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "friendly_anchovy",
+							"sid": 705612587717751
+						}
+					],
+					"actions": [
+						{
+							"id": "set-speed",
+							"objectClass": "friendly_anchovy",
+							"sid": 414905839796438,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"speed": "trashSpeed"
+							}
+						}
+					],
+					"sid": 545861531575439
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 481810551346275
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Score",
+							"sid": 253005674879768,
+							"parameters": {
+								"text": "\"Score: \" & str(score)"
+							}
+						}
+					],
+					"sid": 700509619301856
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 929079286225259,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "friendly_anchovy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 854551306734930,
+							"parameters": {
+								"variable": "lives",
+								"value": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 525382136290744,
+							"parameters": {
+								"audio-file": "retro-hurt-2-236675",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "friendly_anchovy",
+							"sid": 718032126557804
+						},
+						{
+							"id": "set-text",
+							"objectClass": "livesDisplay",
+							"sid": 284779020867199,
+							"parameters": {
+								"text": "\"Lives Remaining: \" & str(lives)"
+							}
+						}
+					],
+					"sid": 368826022409210
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "friendly_anchovy",
+							"sid": 145861759897134
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "friendly_anchovy",
+							"sid": 423797020862201
+						}
+					],
+					"sid": 610215322617753
+				}
+			],
+			"sid": 667982253686681
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
 			"title": "Lives",
 			"description": "",
 			"isActiveOnStart": true,
@@ -301,6 +472,18 @@
 							"behaviorType": "Bullet2",
 							"parameters": {
 								"speed": "0"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 714359092753384,
+							"parameters": {
+								"audio-file": "gameboy-pluck-41265",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						},
 						{
@@ -406,6 +589,18 @@
 							"parameters": {
 								"variable": "lives",
 								"value": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 699014960391566,
+							"parameters": {
+								"audio-file": "retro-hurt-2-236675",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						},
 						{

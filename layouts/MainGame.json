@@ -603,7 +603,7 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 851,
+						"x": 843,
 						"y": 86,
 						"width": 439,
 						"height": 100,
@@ -822,7 +822,7 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 16,
+						"x": 23,
 						"y": 122,
 						"width": 606,
 						"height": 60,
@@ -851,7 +851,19 @@
 					"sid": 339322383264081,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 339322383264081,
 						"expanded": true,

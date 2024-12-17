@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -148,7 +155,8 @@
 			"select",
 			"current_sprite",
 			"TiledBackground8",
-			"friendly_anchovy"
+			"friendly_anchovy",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -187,7 +195,32 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "videogame-death-sound-43894.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 293720075057787,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "retro-hurt-2-236675.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 895960607362619,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "gameboy-pluck-41265.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 780323288015225,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
