@@ -22,18 +22,6 @@
 					"parameters": {
 						"opacity": "0"
 					}
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 646617265380428,
-					"parameters": {
-						"audio-file": "8bittownthemesong-59266",
-						"loop": "not-looping",
-						"volume": "0",
-						"stereo-pan": "0",
-						"tag-optional": "\"landing\""
-					}
 				}
 			],
 			"sid": 458468508936863
@@ -77,11 +65,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 589589128565072,
+					"sid": 661631036881675,
 					"parameters": {
-						"audio-file": "retro-click-236673",
+						"audio-file": "confirm-38513",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-5",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
@@ -157,11 +145,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 470407552745935,
+					"sid": 810444865294807,
 					"parameters": {
 						"audio-file": "retro-click-236673",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-5",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
@@ -195,11 +183,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 994322957866514,
+					"sid": 439510344256486,
 					"parameters": {
 						"audio-file": "retro-click-236673",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-5",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}

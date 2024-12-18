@@ -454,7 +454,7 @@
 					"properties": {
 						"text": "fun fact:",
 						"enable-bbcode": true,
-						"font": "04B_30__",
+						"font": "PixelifySans-Regular",
 						"size": 15,
 						"line-height": 0,
 						"bold": false,

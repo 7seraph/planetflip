@@ -151,10 +151,10 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 326025662461718,
+							"sid": 215619382763554,
 							"parameters": {
 								"variable": "spawnSpeed",
-								"value": "1.5"
+								"value": "3"
 							}
 						},
 						{
@@ -177,11 +177,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 135061055875270,
+							"sid": 419811801117966,
 							"parameters": {
-								"audio-file": "very-lush-and-swag-loop-74140",
+								"audio-file": "bit-beats-3-168873",
 								"loop": "looping",
-								"volume": "0",
+								"volume": "-10",
 								"stereo-pan": "0",
 								"tag-optional": "\"main\""
 							}
@@ -295,6 +295,15 @@
 							"parameters": {
 								"variable": "trashSpeed",
 								"value": "-50"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 541861026787611,
+							"parameters": {
+								"variable": "spawnSpeed",
+								"value": "spawnSpeed - 0.1"
 							}
 						}
 					],
